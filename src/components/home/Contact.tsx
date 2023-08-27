@@ -41,11 +41,11 @@ const Contact = () => {
 						<div className='card bg-[#B3CDE0] rounded-xl text-4xl text-gray-cool-800  lg:h-[200px] lg:w-[380px] absolute left-[55vw] bottom-[100px] flex justify-center items-center'>
 							<div className='card-front  '>
 								<p className=''>Contactez-moi</p>
-								<MousePointer className='lg:w-10 lg:h-10 absolute bottom-4 right-1/3 icon-move-pentacle' />
+								<MousePointer className='lg:w-10 lg:h-10 absolute bottom-4 right-1/3 ' />
 							</div>
 							<div className='card-back text-2xl bg-white rounded-xl flex flex-col'>
 								<p className='p-8'>06 47 11 76 23</p>
-								<p className='p-8'>clement@serizay.com</p>
+								<p className='p-8'>clement.serizay@gmail.com</p>
 							</div>
 						</div>
 					</div>
