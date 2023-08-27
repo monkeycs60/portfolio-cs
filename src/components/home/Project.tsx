@@ -1,4 +1,5 @@
 import { Braces } from 'lucide-react';
+import MacbookMockup from '../MacBookMockUp';
 
 const Project = () => {
 	return (
@@ -7,6 +8,11 @@ const Project = () => {
 				<Braces className=' text-yellow-500 lg:w-14 lg:h-14' />
 				<h2>Sélections de projets</h2>
 			</div>
+			<MacbookMockup>
+				<iframe
+					src='https://coworkezmalin.com/'
+					className='w-full h-full'></iframe>
+			</MacbookMockup>
 		</div>
 	);
 };
