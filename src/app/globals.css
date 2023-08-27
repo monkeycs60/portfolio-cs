@@ -85,7 +85,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	backface-visibility: hidden;
-	pointer-events: none;
+	/* pointer-events: none; */
 }
 
 .card-back {

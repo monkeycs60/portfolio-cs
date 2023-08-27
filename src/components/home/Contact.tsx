@@ -44,9 +44,13 @@ const Contact = () => {
 									<p className=''>Contactez-moi</p>
 									<MousePointer className='lg:w-10 lg:h-10 absolute bottom-4 right-1/3 icon-move-pentacle' />
 								</div>
-								<div className='card-back text-2xl  rounded-xl flex flex-col'>
-									<p className='p-8'>06 47 11 76 23</p>
-									<p className='p-8'>clement.serizay@gmail.com</p>
+								<div className='card-back text-xl  rounded-xl gap-3 flex flex-col'>
+									<p className='pt-6'>06 47 11 76 23</p>
+									<Link
+										href={'mailto:clement.serizay@gmail.com'}
+										className='p-0 border-b-2 animate-pulse'>
+										clement.serizay@gmail.com
+									</Link>
 								</div>
 							</div>
 						</div>
@@ -80,7 +84,7 @@ const Contact = () => {
 					<div className=' font-light text-4xl text-white'>
 						<Link
 							href='https://github.com/monkeycs60'
-							className='flex items-center gap-4 group'
+							className='flex items-center gap-4 group max-w-[200px]'
 							target='_blank'>
 							<Github
 								className={clsx(
