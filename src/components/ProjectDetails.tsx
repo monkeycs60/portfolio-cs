@@ -8,7 +8,7 @@ const ProjectDetails = () => {
 		'Description du projet',
 		'Technologies utilisées',
 	];
-	const [activeTab, setActiveTab] = useState(categories[0]);
+	const [activeTab, setActiveTab] = useState(categories[1]);
 	interface textsProps {
 		[key: string]: string;
 	}
@@ -23,13 +23,13 @@ const ProjectDetails = () => {
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col mt-[15vh]  p-4 '>
-			<div className='flex relative  justify-between'>
+		<div className='flex flex-col mt-[10vh] w-full font-circularLight  p-4 '>
+			<div className='flex relative justify-between'>
 				{categories.map((category, index) => (
 					<span
 						key={index}
 						onClick={() => setActiveTab(category)}
-						className={`cursor-pointer flex-1 text-center`}>
+						className={`cursor-pointer w-[400px] flex-1 text-center text-xl `}>
 						{category}
 					</span>
 				))}
@@ -47,7 +47,7 @@ const ProjectDetails = () => {
 						}%)`,
 					}}></div>
 			</div>
-			<div className='mt-20'>{texts[activeTab]}</div>
+			<div className='mt-20 text-lg'>{texts[activeTab]}</div>
 		</div>
 	);
 };
