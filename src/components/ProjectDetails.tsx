@@ -23,8 +23,8 @@ const ProjectDetails = () => {
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col mt-[15vh] bg-blue-300 p-4 '>
-			<div className='flex relative bg-green-400 justify-between'>
+		<div className='flex flex-col mt-[15vh]  p-4 '>
+			<div className='flex relative  justify-between'>
 				{categories.map((category, index) => (
 					<span
 						key={index}
@@ -35,11 +35,11 @@ const ProjectDetails = () => {
 				))}
 
 				{/* Barre continue */}
-				<div className='absolute w-full h-[4px] bg-gray-300 -bottom-6 '></div>
+				<div className='absolute w-full h-[8px] bg-gray-cool-300 -bottom-6 rounded-xl'></div>
 
 				{/* Indicateur de sélection */}
 				<div
-					className='absolute h-[4px] bg-black -bottom-6 transition-all z-50 duration-300'
+					className='absolute h-[8px] rounded-xl bg-black -bottom-6 transition-all z-50 duration-300'
 					style={{
 						width: `${indicatorWidth}%`,
 						transform: `translateX(${
