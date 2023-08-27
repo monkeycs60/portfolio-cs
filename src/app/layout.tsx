@@ -13,11 +13,11 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-			<html lang='fr'>
-				<body className='m-auto flex flex-col justify-center overflow-x-hidden'>
-					<Navbar />
-					{children}
-				</body>
-			</html>
+		<html lang='fr'>
+			<body className='m-auto flex flex-col justify-center overflow-x-hidden'>
+				<Navbar />
+				{children}
+			</body>
+		</html>
 	);
 }
