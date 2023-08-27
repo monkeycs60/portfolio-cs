@@ -1,5 +1,10 @@
 import { Braces } from 'lucide-react';
-import MacbookMockup from '../MacBookMockUp';
+import {
+	chiaroscuroCategories,
+	chiaroscuroTexts,
+	coworkezCategories,
+	coworkezTexts,
+} from '@/data/projectDetails';
 import ProjectDetails from '../ProjectDetails';
 
 const Project = () => {
@@ -9,7 +14,14 @@ const Project = () => {
 				<Braces className=' text-yellow-500 lg:w-14 lg:h-14' />
 				<h2>Sélections de projets</h2>
 			</div>
-			<ProjectDetails />
+			<ProjectDetails
+				categories={coworkezCategories}
+				texts={coworkezTexts}
+			/>
+			<ProjectDetails
+				categories={chiaroscuroCategories}
+				texts={chiaroscuroTexts}
+			/>
 		</div>
 	);
 };

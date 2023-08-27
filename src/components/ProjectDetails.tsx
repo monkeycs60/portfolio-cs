@@ -2,21 +2,17 @@
 
 import { useState } from 'react';
 
-const ProjectDetails = () => {
-	const categories = [
-		'Mon rôle',
-		'Description du projet',
-		'Technologies utilisées',
-	];
+interface textsProps {
+	[key: string]: string;
+}
+
+interface ProjectDetailsProps {
+	categories: string[];
+	texts: textsProps;
+}
+
+const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 	const [activeTab, setActiveTab] = useState(categories[1]);
-	interface textsProps {
-		[key: string]: string;
-	}
-	const texts: textsProps = {
-		'Mon rôle': "Texte sur 'Mon rôle'.",
-		'Description du projet': 'Description détaillée du projet.',
-		'Technologies utilisées': 'Détails sur les technologies.',
-	};
 
 	// Pour déterminer la position de l'indicateur de sélection
 	const selectedIndex = categories.indexOf(activeTab);
