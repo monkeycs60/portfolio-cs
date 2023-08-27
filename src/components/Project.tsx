@@ -5,7 +5,8 @@ import {
 	coworkezCategories,
 	coworkezTexts,
 } from '@/data/projectDetails';
-import ProjectDetails from '../ProjectDetails';
+import ProjectDetails from './Project/ProjectDetails';
+ 
 
 const Project = () => {
 	return (
