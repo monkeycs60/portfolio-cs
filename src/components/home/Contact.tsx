@@ -48,7 +48,7 @@ const Contact = () => {
 									<p className='pt-6'>06 47 11 76 23</p>
 									<Link
 										href={'mailto:clement.serizay@gmail.com'}
-										className='p-0 border-b-2 animate-pulse'>
+										className='animate-border '>
 										clement.serizay@gmail.com
 									</Link>
 								</div>
