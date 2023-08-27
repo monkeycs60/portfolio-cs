@@ -43,7 +43,7 @@ const ProjectDetails = () => {
 					style={{
 						width: `${indicatorWidth}%`,
 						transform: `translateX(${
-							selectedIndex * (indicatorWidth + 70)
+							selectedIndex * (indicatorWidth + 67)
 						}%)`,
 					}}></div>
 			</div>
