@@ -11,7 +11,7 @@ import {
 const Contact = () => {
 	return (
 		<div className='w-screen bg-gray-cool-700 font-poppins'>
-			<div className='w-[80%]  m-auto py-[10vh] p-4 flex flex-col gap-32'>
+			<div className='w-[80%]  m-auto py-[10vh] p-4 flex flex-col gap-24'>
 				<div className='flex flex-col gap-2'>
 					<div className='flex lg:h-[150px] items-center gap-12'>
 						<div className='lg:h-[150px] bg-white rounded-2xl'>
