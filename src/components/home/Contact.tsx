@@ -11,7 +11,7 @@ import {
 const Contact = () => {
 	return (
 		<div className='w-screen bg-gray-cool-700 font-poppins'>
-			<div className='w-[80%]  m-auto py-[15vh] p-4 flex flex-col gap-32'>
+			<div className='w-[80%]  m-auto py-[10vh] p-4 flex flex-col gap-32'>
 				<div className='flex flex-col gap-2'>
 					<div className='flex lg:h-[150px] items-center gap-12'>
 						<div className='lg:h-[150px] bg-white rounded-2xl'>
@@ -44,7 +44,7 @@ const Contact = () => {
 									<p className=''>Contactez-moi</p>
 									<MousePointer className='lg:w-10 lg:h-10 absolute bottom-4 right-1/3 icon-move-pentacle' />
 								</div>
-								<div className='card-back text-2xl bg-white rounded-xl flex flex-col'>
+								<div className='card-back text-2xl  rounded-xl flex flex-col'>
 									<p className='p-8'>06 47 11 76 23</p>
 									<p className='p-8'>clement.serizay@gmail.com</p>
 								</div>
