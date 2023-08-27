@@ -57,16 +57,22 @@ const Contact = () => {
 						<Link
 							href='https://www.linkedin.com/in/cl%C3%A9ment-serizay-044911262/'
 							target='_blank'
-							className='flex items-center gap-3'>
-							<Linkedin className={clsx('lg:w-[32px] lg:h-[32px]')} />
+							className='flex items-center gap-4 group'>
+							<Linkedin
+								className={clsx(
+									'lg:w-[32px] lg:h-[32px] group-hover:animate-ping'
+								)}
+							/>
 							<span>LinkedIn</span>
 						</Link>
 						<Link
 							href='/docs/CV_Clement_SERIZAY_summer-2023_v4.pdf'
 							target='_blank'
-							className='flex items-center gap-3'>
+							className='flex items-center gap-4 group'>
 							<HardDriveDownload
-								className={clsx('lg:w-[32px] lg:h-[32px]')}
+								className={clsx(
+									'lg:w-[32px] lg:h-[32px] group-hover:animate-ping'
+								)}
 							/>
 							<span>CV</span>
 						</Link>
@@ -74,9 +80,13 @@ const Contact = () => {
 					<div className=' font-light text-4xl text-white'>
 						<Link
 							href='https://github.com/monkeycs60'
-							className='flex items-center gap-3'
+							className='flex items-center gap-4 group'
 							target='_blank'>
-							<Github className={clsx('lg:w-[32px] lg:h-[32px]')} />
+							<Github
+								className={clsx(
+									'lg:w-[32px] lg:h-[32px] group-hover:animate-ping'
+								)}
+							/>
 							<span>GitHub</span>
 						</Link>
 					</div>
