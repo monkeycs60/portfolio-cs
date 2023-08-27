@@ -1,0 +1,26 @@
+{
+	"chiaroscuro": {
+		"categories": [
+			"Mon rôle",
+			"Description du projet",
+			"Technologies utilisées"
+		],
+		"texts": {
+			"Mon rôle": "Texte sur 'Mon rôle'.",
+			"Description du projet": "Description détaillée du projet.",
+			"Technologies utilisées": "Détails sur les technologies."
+		}
+	},
+	"coworkez": {
+		"categories": [
+			"Mon rôle",
+			"Description du projet",
+			"Technologies utilisées"
+		],
+		"texts": {
+			"Mon rôle": "Texte sur 'Mon rôle'lorem30 lorem30 lorem30 .",
+			"Description du projet": "Description détaillée du projet. lorem30 lorem30 lorem30 lorem30 lorem30 lorem30 lorem30  ",
+			"Technologies utilisées": "Détails sur les technologies lorem30 lorem30 lorem30 lorem30 lorem30 lorem30 ."
+		}
+	}
+}

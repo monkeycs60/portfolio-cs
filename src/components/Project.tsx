@@ -1,12 +1,8 @@
 import { Braces } from 'lucide-react';
-import {
-	chiaroscuroCategories,
-	chiaroscuroTexts,
-	coworkezCategories,
-	coworkezTexts,
-} from '@/data/projectDetails';
 import ProjectDetails from './Project/ProjectDetails';
- 
+import projectDetails from '../data/projectDetails.json';
+
+const { chiaroscuro, coworkez } = projectDetails;
 
 const Project = () => {
 	return (
@@ -16,12 +12,12 @@ const Project = () => {
 				<h2>Sélections de projets</h2>
 			</div>
 			<ProjectDetails
-				categories={coworkezCategories}
-				texts={coworkezTexts}
+				categories={coworkez.categories}
+				texts={coworkez.texts}
 			/>
 			<ProjectDetails
-				categories={chiaroscuroCategories}
-				texts={chiaroscuroTexts}
+				categories={chiaroscuro.categories}
+				texts={chiaroscuro.texts}
 			/>
 		</div>
 	);
