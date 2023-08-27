@@ -36,10 +36,18 @@ const Contact = () => {
 					<div></div>
 				</div>
 				<div className='relative'>
-					<div className='w-full h-[2px] bg-gray-cool-300 '></div>
-					<div className='bg-[#B3CDE0] rounded-xl text-4xl text-gray-cool-800  h-[200px] absolute right-28 -bottom-[100px] flex justify-center items-center '>
-						<p className='p-8'>Contactez-moi</p>
-						<MousePointer className='lg:w-10 lg:h-10 absolute bottom-4 right-1/3 icon-move-pentacle' />
+					<div className='w-full h-[2px] bg-gray-cool-300'></div>
+					<div className='card-container relative h-0 cursor-pointer'>
+						<div className='card bg-[#B3CDE0] rounded-xl text-4xl text-gray-cool-800  lg:h-[200px] lg:w-[380px] absolute left-[55vw] bottom-[100px] flex justify-center items-center'>
+							<div className='card-front  '>
+								<p className=''>Contactez-moi</p>
+								<MousePointer className='lg:w-10 lg:h-10 absolute bottom-4 right-1/3 icon-move-pentacle' />
+							</div>
+							<div className='card-back text-2xl bg-white rounded-xl flex flex-col'>
+								<p className='p-8'>06 47 11 76 23</p>
+								<p className='p-8'>clement@serizay.com</p>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div className='space-y-8'>
