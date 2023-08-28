@@ -1,25 +1,40 @@
 'use client';
 
 import { useState } from 'react';
-
-interface textsProps {
-	[key: string]: string;
-}
+import { MyRole, ProjectDescription, Technologies } from './ProjectCategories';
 
 interface ProjectDetailsProps {
 	categories: string[];
-	texts: textsProps;
+	texts: {
+		role: React.ReactNode | string;
+		description: string;
+	};
+	TechComponent?: React.ReactNode;
 }
 
-const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
+const ProjectDetails = ({
+	categories,
+	texts,
+	TechComponent,
+}: ProjectDetailsProps) => {
 	const [activeTab, setActiveTab] = useState(categories[1]);
+
+	const detailsTab = [
+		<MyRole content={texts.role} />,
+		<ProjectDescription content={texts.description} />,
+		TechComponent ? (
+			<Technologies>{TechComponent}</Technologies>
+		) : (
+			<Technologies />
+		),
+	];
 
 	// Pour déterminer la position de l'indicateur de sélection
 	const selectedIndex = categories.indexOf(activeTab);
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col mt-[10vh] mb-[5vh] w-full font-circularLight p-4 '>
+		<div className='flex flex-col mt-[5vh] mb-[5vh] w-full font-circularLight p-4 '>
 			<div className='flex relative justify-between'>
 				{categories.map((category, index) => (
 					<span
@@ -43,7 +58,7 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 						}%)`,
 					}}></div>
 			</div>
-			<div className='mt-20 text-lg'>{texts[activeTab]}</div>
+			<div className='mt-20 text-lg'>{detailsTab[selectedIndex]}</div>
 		</div>
 	);
 };

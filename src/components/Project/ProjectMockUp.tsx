@@ -23,7 +23,7 @@ const ProjectMockUp = ({
 	iphoneClassName,
 }: ProjectMockUpProps) => {
 	return (
-		<div className='flex mt-[8vh] relative h-[55vh] bg-yellow-300'>
+		<div className='flex mt-[8vh] relative h-[55vh]'>
 			<Image
 				src={macSrc}
 				alt={macAlt}
