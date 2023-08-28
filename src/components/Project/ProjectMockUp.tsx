@@ -1,6 +1,8 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface ProjectMockUpProps {
+	website: string;
 	macSrc: string;
 	macAlt: string;
 	macWidth: number;
@@ -12,6 +14,7 @@ interface ProjectMockUpProps {
 }
 
 const ProjectMockUp = ({
+	website,
 	macSrc,
 	macAlt,
 	macWidth,
@@ -19,27 +22,31 @@ const ProjectMockUp = ({
 	macClassName,
 	iphoneSrc,
 	iphoneAlt,
-	
+
 	iphoneClassName,
 }: ProjectMockUpProps) => {
 	return (
-		<div className='flex mt-[8vh] relative h-[55vh]'>
-			<Image
-				src={macSrc}
-				alt={macAlt}
-				width={macWidth}
-				height={macHeight}
-				className={macClassName}
-				priority
-			/>
-			<Image
-				width={538}
-				height={1146}
-				src={iphoneSrc}
-				alt={iphoneAlt}
-				className={iphoneClassName}
-				priority
-			/>
+		<div className='mt-[8vh] relative h-[55vh]'>
+			<Link href={website} target='_blank'>
+				<Image
+					src={macSrc}
+					alt={macAlt}
+					width={macWidth}
+					height={macHeight}
+					className={macClassName}
+					priority
+				/>
+			</Link>
+			<Link href={website} target='_blank'>
+				<Image
+					width={538}
+					height={1146}
+					src={iphoneSrc}
+					alt={iphoneAlt}
+					className={iphoneClassName}
+					priority
+				/>
+			</Link>
 		</div>
 	);
 };

@@ -10,6 +10,6 @@ export const ProjectDescription = ({ content }: ContentProps) => {
 	return <div>{content || 'Description détaillée du projet.'}</div>;
 };
 
-export const Technologies = ({ children }: { children?: React.ReactNode }) => {
-	return <div>{children || 'Détails sur les technologies.'}</div>;
+export const Technologies = ({ content }: ContentProps) => {
+	return <div>{content || 'Description détaillée du projet.'}</div>;
 };
