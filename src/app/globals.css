@@ -84,7 +84,10 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
+	transform: rotateX(0deg)
 	/* pointer-events: none; */
 }
 
