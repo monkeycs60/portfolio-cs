@@ -10,7 +10,7 @@ const HeroTop = () => {
 	return (
 		<div className='flex w-[80vw] h-[35vh] justify-between items-center mx-auto relative'>
 			<div className='h-1/2 flex flex-col justify-center items-center w-1/2'>
-				<div className='text-6xl font-bold font-poppins text-gray-cool-700 flex flex-col gap-4'>
+				<div className='2xl:text-5xl 3xl:text-6xl font-bold font-poppins text-gray-cool-700 flex flex-col gap-4'>
 					<div className='flex gap-4'>
 						{!isHover ? (
 							<Link
@@ -48,7 +48,10 @@ const HeroTop = () => {
 					width={531}
 					height={423}
 					priority={true}
-					className={clsx('absolute -bottom-0 right-0', '2xl:w-[600px] ')}
+					className={clsx(
+						'absolute -bottom-16 right-0',
+						'3xl:w-[600px] 3xl:-bottom-0 '
+					)}
 				/>
 			</div>
 		</div>

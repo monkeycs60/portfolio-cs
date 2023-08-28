@@ -31,7 +31,7 @@ const config: Config = {
 			},
 			backgroundImage: {},
 			screens: {
-				'3xl': '1980px',
+				'3xl': '2200px',
 			},
 		},
 	},

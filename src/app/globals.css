@@ -113,16 +113,15 @@ body {
 	overflow: hidden;
 	position: relative;
 	vertical-align: middle;
+}
 
-	/* Ajoutez cette pseudo-classe pour la bordure animée */
-	&::after {
-		content: '';
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		border-bottom: 2px solid currentColor; /* couleur de la bordure */
-		width: 0; /* valeur initiale */
-		animation: pulseBorder 2s infinite; /* 2s est la durée de l'animation, modifiez-la comme vous le souhaitez */
-	}
+.animate-border::after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 2px solid currentColor; /* couleur de la bordure */
+	width: 0; /* valeur initiale */
+	animation: pulseBorder 2s infinite; /* 2s est la durée de l'animation, modifiez-la comme vous le souhaitez */
 }

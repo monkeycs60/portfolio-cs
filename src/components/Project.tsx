@@ -30,17 +30,17 @@ const Project = () => {
 					macAlt='my project Chiaroscuro mobile version'
 					macWidth={1092}
 					macHeight={664}
-					macClassName='absolute bottom-0 left-[200px] cursor-pointer hover:brightness-50'
+					macClassName='absolute bottom-0 left-[230px] 3xl:left-[200px] cursor-pointer hover:brightness-50 scale-[82%] 3xl:scale-100'
 					iphoneSrc='/mobile-coworkez.png'
 					iphoneAlt='my project Chiaroscuro mobile version'
-					iphoneClassName='absolute scale-[55%] -bottom-[250px] left-[1300px] cursor-pointer hover:brightness-50'
+					iphoneClassName='absolute scale-[45%] 3xl:scale-[55%] -bottom-[250px] left-[1180px] 3xl:left-[1300px] cursor-pointer hover:brightness-50'
 				/>
 				<div className='flex flex-col justify-center items-center gap-4 font-poppins'>
-					<h1 className='text-center  text-5xl mt-32 text-gray-cool-700'>
+					<h1 className='text-center text-4xl 3xl:text-5xl 3xl:mt-32 text-gray-cool-700'>
 						Coworkez Malin
 					</h1>
 					<Link href={'https://www.coworkezmalin.com'} target='_blank'>
-						<span className='text-lg hover:underline text-gray-cool-800'>
+						<span className='3xl:text-lg hover:underline text-gray-cool-800'>
 							coworkezmalin.com
 						</span>
 					</Link>
@@ -54,26 +54,26 @@ const Project = () => {
 					}}
 				/>
 			</div>
-			<div className='flex flex-col gap-4'>
+			<div className='flex flex-col gap-4 mb-[10vh]'>
 				<ProjectMockUp
 					website='https://restaurant-app-67d7.vercel.app/'
 					macSrc='/desktop-chiaroscuro.png'
 					macAlt='my project Chiaroscuro mobile version'
 					macWidth={1117}
 					macHeight={664}
-					macClassName='absolute bottom-0 left-[660px] cursor-pointer hover:brightness-150'
+					macClassName='absolute bottom-0 left-[580px] 3xl:left-[660px] cursor-pointer hover:brightness-150 scale-[82%] 3xl:scale-100'
 					iphoneSrc='/mobile-chiaroscuro.png'
 					iphoneAlt='my project Chiaroscuro mobile version'
-					iphoneClassName='absolute scale-[55%] -bottom-[250px] left-[100px] hover:brightness-125 cursor-pointer'
+					iphoneClassName='absolute scale-[45%] 3xl:scale-[55%] -bottom-[250px] left-[200px] 3xl:left-[100px] hover:brightness-125 cursor-pointer'
 				/>
 				<div className='flex flex-col justify-center items-center gap-4 font-poppins'>
-					<h1 className='text-center  text-5xl mt-32 text-gray-cool-700'>
-						 Chiaroscuro
+					<h1 className='text-center text-4xl 3xl:text-5xl 3xl:mt-32 text-gray-cool-700'>
+						Chiaroscuro
 					</h1>
 					<Link
 						href={'https://restaurant-app-67d7.vercel.app/'}
 						target='_blank'>
-						<span className='text-lg hover:underline text-gray-cool-800'>
+						<span className='3xl:text-lg hover:underline text-gray-cool-800'>
 							restaurant-app-67d7.vercel.app
 						</span>
 					</Link>

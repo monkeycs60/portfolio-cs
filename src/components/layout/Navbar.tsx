@@ -11,7 +11,7 @@ const Navbar = () => {
 	return (
 		<motion.div
 			animate={controls}
-			className='fixed flex justify-between lg:w-screen left-0 top-0 px-[10vw] transition-all duration-300 py-12 text-4xl tracking-wider z-50 backdrop-blur-md'>
+			className='fixed flex justify-between lg:w-screen left-0 top-0 px-[10vw] transition-all duration-300 py-8 3xl:py-12 xl:text-3xl 3xl:text-4xl tracking-wider z-50 backdrop-blur-md'>
 			<Link href='/'>
 				Clément <span className='uppercase'>Serizay</span>
 			</Link>

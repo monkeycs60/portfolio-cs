@@ -13,7 +13,7 @@ import FlipCard from './Contact/FlipCard';
 const Contact = () => {
 	return (
 		<div className='w-screen bg-gray-cool-700 font-poppins'>
-			<div className='w-[80%]  m-auto py-[10vh] p-4 flex flex-col gap-24'>
+			<div className='w-[80%] m-auto py-[10vh] p-4 flex flex-col gap-2 3xl:gap-16'>
 				<div className='flex flex-col gap-2'>
 					<div className='flex lg:h-[150px] items-center gap-12'>
 						<ProfileImage />
@@ -23,7 +23,7 @@ const Contact = () => {
 				</div>
 				<FlipCard />
 				<div className='space-y-8'>
-					<div className='flex gap-8 font-light text-4xl text-white'>
+					<div className='flex gap-8 font-light text-3xl 3xl:text-4xl text-white'>
 						<SocialLink
 							href='https://www.linkedin.com/in/cl%C3%A9ment-serizay-044911262/'
 							icon={
@@ -47,7 +47,7 @@ const Contact = () => {
 							CV
 						</SocialLink>
 					</div>
-					<div className='font-light text-4xl text-white'>
+					<div className='font-light text-3xl 3xl:text-4xl text-white'>
 						<SocialLink
 							href='https://github.com/monkeycs60'
 							icon={
