@@ -19,7 +19,7 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col mt-[10vh] w-full font-circularLight  p-4 '>
+		<div className='flex flex-col mt-[10vh] w-full font-circularLight p-4 '>
 			<div className='flex relative justify-between'>
 				{categories.map((category, index) => (
 					<span
