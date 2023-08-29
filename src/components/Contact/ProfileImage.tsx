@@ -2,7 +2,7 @@ import clsx from "clsx";
 import Image from "next/image";
 
 const ProfileImage = () => (
-	<div className='lg:h-[150px] bg-white rounded-2xl'>
+	<div className='lg:h-[150px] bg-white rounded-2xl overflow-hidden lg:overflow-auto'>
 		<Image
 			src='/photo-contact.png'
 			alt='Logo'
