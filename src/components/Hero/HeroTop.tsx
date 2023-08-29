@@ -18,7 +18,7 @@ const HeroTop = () => {
 								target='_blank'
 								onMouseEnter={() => setIsHover(true)}
 								onMouseLeave={() => setIsHover(false)}>
-								<GitMerge className=' text-yellow-500 w-8 h-8 translate-y-1 lg:w-14 lg:h-14  transition-all duration-300' />
+								<GitMerge className='hidden lg:block text-yellow-500 w-8 h-8 translate-y-1 lg:w-14 lg:h-14  transition-all duration-300' />
 							</Link>
 						) : (
 							<Link
@@ -26,7 +26,7 @@ const HeroTop = () => {
 								target='_blank'
 								onMouseLeave={() => setIsHover(false)}>
 								<GitCompare
-									className=' text-yellow-500 translate-y-1 w-8 h-8 lg:w-14 lg:h-14  transition-all duration-300'
+									className='hidden lg:block text-yellow-500 translate-y-1 w-8 h-8 lg:w-14 lg:h-14  transition-all duration-300'
 									onMouseEnter={() => setIsHover(true)}
 									onMouseLeave={() => {
 										setIsHover(false);

@@ -24,6 +24,7 @@ const HeroBottom = () => {
 						height={60}
 						data-tooltip-id='javascript-tooltip'
 						data-tooltip-content='Javascript'
+						className='p-1 w-[60px] lg:p-0 '
 					/>
 					<Image
 						src={'/typescript.svg'}
@@ -32,6 +33,7 @@ const HeroBottom = () => {
 						height={60}
 						data-tooltip-id='typescript-tooltip'
 						data-tooltip-content='Typescript'
+						className='p-1 w-[60px] lg:p-0 '
 					/>
 					<Image
 						src={'/react.svg'}
@@ -40,6 +42,7 @@ const HeroBottom = () => {
 						height={60}
 						data-tooltip-id='react-tooltip'
 						data-tooltip-content='React'
+						className='p-1 w-[60px] lg:p-0 '
 					/>
 					<Image
 						src={'/redux.svg'}
@@ -48,6 +51,7 @@ const HeroBottom = () => {
 						height={60}
 						data-tooltip-id='redux-tooltip'
 						data-tooltip-content='Redux'
+						className='p-1 w-[60px] lg:p-0 '
 					/>
 					<Image
 						src={'/nexticon.svg'}
@@ -56,6 +60,7 @@ const HeroBottom = () => {
 						height={60}
 						data-tooltip-id='next-tooltip'
 						data-tooltip-content='Next.js'
+						className='p-1 w-[60px] lg:p-0 '
 					/>
 					<Image
 						src={'/node.svg'}
@@ -64,6 +69,7 @@ const HeroBottom = () => {
 						height={60}
 						data-tooltip-id='node-tooltip'
 						data-tooltip-content='Node.js'
+						className='p-1 w-[60px] lg:p-0'
 					/>
 					<Tooltip id='javascript-tooltip' />
 					<Tooltip id='typescript-tooltip' />
