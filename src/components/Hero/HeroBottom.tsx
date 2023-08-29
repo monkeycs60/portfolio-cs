@@ -4,8 +4,8 @@ import { Tooltip } from 'react-tooltip';
 
 const HeroBottom = () => {
 	return (
-		<div className='2xl:max-w-[1000px] 3xl:max-w-[1200px] text-lg lg:text-2xl 3xl:text-3xl flex flex-col  mx-auto mt-[7vh] lg:mt-[10vh] 3xl:mt-[6vh] font-circularLight font-light gap-[4vh] 2xl:gap-[8vh] 3xl:gap-[12vh] tracking-wide'>
-			<p className='px-2 lg:px-0'>
+		<div className='2xl:max-w-[1000px] 3xl:max-w-[1200px] text-lg lg:text-2xl 3xl:text-3xl flex flex-col  mx-auto mt-[10vh] lg:mt-[10vh] 3xl:mt-[6vh] font-circularLight font-light gap-[4vh] 2xl:gap-[8vh] 3xl:gap-[12vh] tracking-wide'>
+			<p className='px-3 lg:px-0 text-justify lg:text-left'>
 				Après une reconversion professionnelle, je me suis lancé dans le
 				développement web. Spécialisé dans le framework React, je me tiens
 				toujours informé des dernières nouveautés en les intégrant à mes

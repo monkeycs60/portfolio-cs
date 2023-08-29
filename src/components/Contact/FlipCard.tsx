@@ -1,4 +1,4 @@
-import { MousePointer } from 'lucide-react';
+import { MousePointer, Hand } from 'lucide-react';
 import Link from 'next/link';
 
 const FlipCard = () => {
@@ -11,6 +11,7 @@ const FlipCard = () => {
 						<div className='card-front w-[200px] lg:w-auto px-12 py-4 flex bg-[#B3CDE0] rounded-xl '>
 							<p className=''>Contactez-moi</p>
 							<MousePointer className='hidden lg:block lg:w-10 lg:h-10 absolute bottom-4 right-1/3 lg:icon-move-pentacle' />
+							<Hand className='lg:hidden lg:w-10 lg:h-10 absolute bottom-2 animate-pulse right-1/3 lg:icon-move-pentacle' />
 						</div>
 						<div className='hidden lg:flex card-back lg:text-xl  bg-[#B3CDE0] rounded-xl gap-3 flex-col'>
 							<p className='pt-6'>06 47 11 76 23</p>

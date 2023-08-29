@@ -8,7 +8,7 @@ const HeroTop = () => {
 	const [isHover, setIsHover] = useState(false);
 
 	return (
-		<div className='flex lg:w-[80vw] h-[35vh] gap-8 lg:gap-0 flex-col lg:flex-row justify-between items-center mx-auto relative'>
+		<div className='flex lg:w-[80vw] h-[35vh] gap-16 lg:gap-0 flex-col lg:flex-row justify-between items-center mx-auto relative'>
 			<div className='h-1/2 flex flex-col justify-center items-center w-[350px] lg:w-1/2'>
 				<div className='text-2xl 2xl:text-5xl 3xl:text-6xl font-bold font-poppins text-gray-cool-700 flex flex-col gap-4'>
 					<div className='flex gap-4'>
