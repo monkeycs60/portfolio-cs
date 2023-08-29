@@ -13,8 +13,8 @@ const FlipCard = () => {
 							<MousePointer className='hidden lg:block lg:w-10 lg:h-10 absolute bottom-4 right-1/3 lg:icon-move-pentacle' />
 							<Hand className='lg:hidden lg:w-10 lg:h-10 absolute bottom-2 animate-pulse right-1/3 lg:icon-move-pentacle' />
 						</div>
-						<div className='hidden lg:flex card-back lg:text-xl  bg-[#B3CDE0] rounded-xl gap-3 flex-col'>
-							<p className='pt-6'>06 47 11 76 23</p>
+						<div className='hidden lg:flex card-back text-sm lg:text-xl  bg-[#B3CDE0] rounded-xl gap-3 flex-col'>
+							<p className='lg:pt-6'>06 47 11 76 23</p>
 							<Link
 								href={'mailto:clement.serizay@gmail.com'}
 								className='animate-border '>
