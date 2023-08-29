@@ -16,7 +16,7 @@ const HeroBottom = () => {
 					<h3 className='text-xl lg:text-4xl font-bold'>Tech Stack</h3>
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
 				</div>
-				<div className='flex gap-10 flex-wrap justify-center lg:justify-start'>
+				<div className='flex gap-10 flex-wrap lg:flex-nowrap justify-center lg:justify-start'>
 					<Image
 						src={'/javascript.svg'}
 						alt='Logo'
