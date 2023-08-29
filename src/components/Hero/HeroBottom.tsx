@@ -4,19 +4,19 @@ import { Tooltip } from 'react-tooltip';
 
 const HeroBottom = () => {
 	return (
-		<div className='2xl:max-w-[1000px] 3xl:max-w-[1200px] text-2xl 3xl:text-3xl flex flex-col  mx-auto mt-[10vh] 3xl:mt-[6vh] font-circularLight font-light gap-[8vh] 3xl:gap-[12vh] tracking-wide'>
+		<div className='2xl:max-w-[1000px] 3xl:max-w-[1200px] text-lg lg:text-2xl 3xl:text-3xl flex flex-col  mx-auto mt-[7vh] lg:mt-[10vh] 3xl:mt-[6vh] font-circularLight font-light gap-[4vh] 2xl:gap-[8vh] 3xl:gap-[12vh] tracking-wide'>
 			<p>
 				Après une reconversion professionnelle, je me suis lancé dans le
 				développement web. Spécialisé dans le framework React, je me tiens
 				toujours informé des dernières nouveautés en les intégrant à mes
 				projets.
 			</p>
-			<div className='flex gap-[12vw] items-center'>
+			<div className='flex lg:flex-row flex-col gap-8 lg:gap-[12vw] items-center'>
 				<div className='flex gap-4'>
-					<h3 className='text-4xl font-bold'>Tech Stack</h3>
+					<h3 className='text-xl lg:text-4xl font-bold'>Tech Stack</h3>
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
 				</div>
-				<div className='flex gap-10'>
+				<div className='flex gap-10 flex-wrap justify-center lg:justify-start'>
 					<Image
 						src={'/javascript.svg'}
 						alt='Logo'

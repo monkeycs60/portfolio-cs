@@ -8,9 +8,9 @@ const HeroTop = () => {
 	const [isHover, setIsHover] = useState(false);
 
 	return (
-		<div className='flex w-[80vw] h-[35vh] justify-between items-center mx-auto relative'>
-			<div className='h-1/2 flex flex-col justify-center items-center w-1/2'>
-				<div className='2xl:text-5xl 3xl:text-6xl font-bold font-poppins text-gray-cool-700 flex flex-col gap-4'>
+		<div className='flex lg:w-[80vw] h-[35vh] gap-8 lg:gap-0 flex-col lg:flex-row justify-between items-center mx-auto relative'>
+			<div className='h-1/2 flex flex-col justify-center items-center w-[350px] lg:w-1/2'>
+				<div className='text-2xl 2xl:text-5xl 3xl:text-6xl font-bold font-poppins text-gray-cool-700 flex flex-col gap-4'>
 					<div className='flex gap-4'>
 						{!isHover ? (
 							<Link
@@ -18,7 +18,7 @@ const HeroTop = () => {
 								target='_blank'
 								onMouseEnter={() => setIsHover(true)}
 								onMouseLeave={() => setIsHover(false)}>
-								<GitMerge className=' text-yellow-500 lg:w-14 lg:h-14  transition-all duration-300' />
+								<GitMerge className=' text-yellow-500 w-8 h-8 translate-y-1 lg:w-14 lg:h-14  transition-all duration-300' />
 							</Link>
 						) : (
 							<Link
@@ -26,7 +26,7 @@ const HeroTop = () => {
 								target='_blank'
 								onMouseLeave={() => setIsHover(false)}>
 								<GitCompare
-									className=' text-yellow-500 lg:w-14 lg:h-14  transition-all duration-300'
+									className=' text-yellow-500 translate-y-1 w-8 h-8 lg:w-14 lg:h-14  transition-all duration-300'
 									onMouseEnter={() => setIsHover(true)}
 									onMouseLeave={() => {
 										setIsHover(false);
@@ -41,7 +41,7 @@ const HeroTop = () => {
 					</div>
 				</div>
 			</div>
-			<div className='h-1/2 w-1/2  items-end'>
+			<div className='h-1/2 lg:w-1/2 items-end'>
 				<Image
 					src={'/profil-stack.png'}
 					alt='Logo'
@@ -49,7 +49,8 @@ const HeroTop = () => {
 					height={423}
 					priority={true}
 					className={clsx(
-						'absolute -bottom-16 right-0',
+						' w-[250px] ',
+						'xl:w-[530px] xl:absolute -bottom-16 right-0',
 						'3xl:w-[600px] 3xl:-bottom-0 '
 					)}
 				/>
