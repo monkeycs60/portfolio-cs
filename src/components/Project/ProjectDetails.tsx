@@ -29,13 +29,13 @@ const ProjectDetails = ({
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col max-w-[1200px] h-[600px] mx-auto mt-[5vh] mb-[5vh] w-full font-circularLight p-4 '>
+		<div className='flex flex-col max-w-[1200px] h-[400px] lg:h-[600px] mx-auto mt-[5vh] mb-[5vh] w-full font-circularLight p-4 '>
 			<div className='flex relative justify-between'>
 				{categories.map((category, index) => (
 					<span
 						key={index}
 						onClick={() => setActiveTab(category)}
-						className={`cursor-pointer w-[400px] flex-1 text-center text-xl `}>
+						className={`cursor-pointer w-[400px] flex-1 text-center text-sm lg:text-xl `}>
 						{category}
 					</span>
 				))}
@@ -53,7 +53,7 @@ const ProjectDetails = ({
 						}%)`,
 					}}></div>
 			</div>
-			<div className='mt-20 text-lg'>{detailsTab[selectedIndex]}</div>
+			<div className='mt-20 lg:text-lg'>{detailsTab[selectedIndex]}</div>
 		</div>
 	);
 };
