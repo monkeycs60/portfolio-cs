@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
 	content: [
@@ -9,6 +9,7 @@ const config: Config = {
 	theme: {
 		fontFamily: {
 			poppins: ['Poppins', 'sans-serif'],
+			eva: ['Yeseva One', 'cursive'],
 			circular: ['Circular Std', 'sans-serif'],
 			circularMedium: ['Circular Std Medium', 'sans-serif'],
 			circularLight: ['Circular Std Light', 'sans-serif'],
@@ -28,6 +29,9 @@ const config: Config = {
 					800: '#30374F',
 					950: '#0E101B',
 				},
+				primary: 'rgb(250, 250, 250)',
+				secondary: 'rgb(40, 40, 40)',
+				tercary: '#FFCA28',
 			},
 			backgroundImage: {},
 			screens: {
@@ -37,4 +41,4 @@ const config: Config = {
 	},
 	plugins: [],
 };
-export default config
+export default config;

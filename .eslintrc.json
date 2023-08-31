@@ -1,11 +1,11 @@
 {
 	"extends": [
 		"eslint:recommended",
+		"plugin:tailwindcss/recommended",
 		"plugin:react/recommended",
 		"plugin:@typescript-eslint/recommended",
 		"plugin:react-hooks/recommended",
-		"next/core-web-vitals",
-		"plugin:tailwindcss/recommended"
+		"next/core-web-vitals"
 	],
 	"settings": {
 		"react": {
@@ -18,5 +18,11 @@
 		"@typescript-eslint/explicit-module-boundary-types": "off",
 		"@typescript-eslint/no-explicit-any": "off",
 		"@typescript-eslint/no-non-null-assertion": "off"
-	}
+	},
+	"overrides": [
+		{
+			"files": ["*.ts", "*.tsx", "*.js"],
+			"parser": "@typescript-eslint/parser"
+		}
+	]
 }

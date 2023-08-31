@@ -1,9 +1,9 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 interface SocialLinkProps {
-    href: string;
-    children: string;
-    icon: JSX.Element;
+	href: string;
+	children: string;
+	icon: JSX.Element;
 }
 
 const SocialLink = ({ href, children, icon }: SocialLinkProps) => (
@@ -13,4 +13,4 @@ const SocialLink = ({ href, children, icon }: SocialLinkProps) => (
 	</Link>
 );
 
-export default SocialLink
+export default SocialLink;

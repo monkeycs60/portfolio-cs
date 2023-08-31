@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang='fr'>
-			<body className='m-auto flex flex-col justify-center overflow-x-hidden'>
+			<body className='m-auto flex flex-col justify-center overflow-x-hidden bg-primary'>
 				<Navbar />
 				{children}
 			</body>

@@ -1,24 +1,38 @@
 'use client';
 
 import Link from 'next/link';
-import useScrollControl from '@/hooks/useScrollControl';
-
-import { motion } from 'framer-motion';
+import { AlignJustify, GitCompare, GitMerge } from 'lucide-react';
+import { useState } from 'react';
 
 const Navbar = () => {
-	const { controls } = useScrollControl();
+	const [isHover, setIsHover] = useState(false);
 
 	return (
-		<motion.div
-			animate={controls}
-			className='hidden lg:flex fixed  justify-between lg:w-screen gap-4 lg:gap-0 left-0 top-0 px-[10vw] transition-all duration-300 py-8 3xl:py-12 text-lg xl:text-3xl 3xl:text-4xl tracking-wider z-50 backdrop-blur-md'>
-			<Link href='/'>
-				Clément <span className='uppercase'>Serizay</span>
-			</Link>
-			<Link href={'/contact'} className='uppercase'>
-				Contactez moi
-			</Link>
-		</motion.div>
+		<>
+			<AlignJustify className='fixed xl:w-10 xl:h-10 top-[6vh] right-[8vw] text-yellow-500' />
+			{!isHover ? (
+				<Link
+					href='https://github.com/monkeycs60'
+					target='_blank'
+					onMouseEnter={() => setIsHover(true)}
+					onMouseLeave={() => setIsHover(false)}>
+					<GitMerge className='fixed top-[6vh] left-[8vw] text-yellow-500 xl:w-12 xl:h-12 transition-all duration-300' />
+				</Link>
+			) : (
+				<Link
+					href='https://github.com/monkeycs60'
+					target='_blank'
+					onMouseLeave={() => setIsHover(false)}>
+					<GitCompare
+						className='fixed text-yellow-500 top-[6vh] left-[8vw] xl:w-12 xl:h-12 transition-all duration-300'
+						onMouseEnter={() => setIsHover(true)}
+						onMouseLeave={() => {
+							setIsHover(false);
+						}}
+					/>
+				</Link>
+			)}
+		</>
 	);
 };
 

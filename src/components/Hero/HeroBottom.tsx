@@ -4,14 +4,27 @@ import { Tooltip } from 'react-tooltip';
 
 const HeroBottom = () => {
 	return (
-		<div className='2xl:max-w-[1000px] 3xl:max-w-[1200px] text-lg lg:text-2xl 3xl:text-3xl flex flex-col  mx-auto mt-[12vh] lg:mt-[10vh] 3xl:mt-[6vh] font-circularLight font-light gap-[7vh] 2xl:gap-[8vh] 3xl:gap-[12vh] tracking-wide'>
+		<div className='flex lg:w-[80vw] h-[35vh] gap-16 lg:gap-0 flex-col lg:flex-row justify-between items-center mx-auto relative'>
+			<div className='h-1/2 flex flex-col justify-center items-center w-[350px] lg:w-1/2'>
+				<div className='font-poppins text-secondary flex flex-col gap-4'>
+					<div className='flex gap-4'>
+						<div className='flex flex-col gap-2'>
+							<h1 className='text-8xl font-semibold'>
+								Clément <span className='block uppercase'>Serizay</span>
+							</h1>
+							<h2 className='text-4xl'>
+								Développeur Fullstack Javascript
+							</h2>
+						</div>
+					</div>
+				</div>
+			</div>
 			<p className='px-3 lg:px-0 text-justify lg:text-left'>
-				Après une reconversion professionnelle, je me suis lancé dans le
-				développement web. Spécialisé dans le framework React, je me tiens
-				toujours informé des dernières nouveautés en les intégrant à mes
-				projets.
+				Je cherchais un métier qui me permette de matérialiser mes idées en
+				créant des projets. Je cherchais à avoir un impact sur le monde. Je
+				suis devenu développeur.
 			</p>
-			<div className='flex lg:flex-row flex-col gap-8 lg:gap-[12vw] xl:gap-[8vw] 3xl:gap[12vw] items-center'>
+			{/* <div className='flex lg:flex-row flex-col gap-8 lg:gap-[12vw] xl:gap-[8vw] 3xl:gap[12vw] items-center'>
 				<div className='flex gap-4 '>
 					<h3 className='text-xl lg:text-4xl font-bold'>Tech Stack</h3>
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
@@ -78,7 +91,7 @@ const HeroBottom = () => {
 					<Tooltip id='next-tooltip' />
 					<Tooltip id='node-tooltip' />
 				</div>
-			</div>
+			</div> */}
 		</div>
 	);
 };
