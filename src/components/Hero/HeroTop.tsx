@@ -1,13 +1,11 @@
 import clsx from 'clsx';
-import Link from 'next/link';
 import Image from 'next/image';
-import { useState } from 'react';
 
 const HeroTop = () => {
 	return (
 		<div className='flex lg:w-[65vw] h-screen gap-16 lg:gap-0 flex-col lg:flex-row justify-between pt-[25vh] mx-auto relative'>
 			<div className='h-full flex flex-col '>
-				<div className='flex flex-col h-full  gap-14 font-eva text-secondary'>
+				<div className='flex flex-col h-full gap-14 font-eva text-secondary'>
 					<div className='flex flex-col gap-4'>
 						<h1 className='text-8xl'>
 							Clément <span className='block uppercase'>Serizay</span>
@@ -33,17 +31,17 @@ const HeroTop = () => {
 					</div>
 				</div>
 			</div>
-			<div className='h-1/2 relative justify-end items-start flex border-[2px] border-gray-300 rounded-full -translate-y-8 '>
+			<div className='h-1/2 relative justify-end items-start flex border-[0px] border-gray-300 rounded-full -translate-y-32 '>
 				<Image
-					src={'/cs-in-js-1.png'}
+					src={'/cs-test-3.png'}
 					alt='Logo'
 					width={837}
 					height={648}
 					priority={true}
 					className={clsx(
 						' w-[250px] translate-y-16',
-						'',
-						'3xl:w-[800px] 3xl:-bottom-0 '
+						'xl:w-[1300px] ',
+						'3xl:w-[1500px] 3xl:-bottom-0 '
 					)}
 				/>
 			</div>
