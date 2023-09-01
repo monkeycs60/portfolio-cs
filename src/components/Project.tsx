@@ -23,6 +23,11 @@ const Project = () => {
 				<Braces className=' text-yellow-500 lg:w-14 lg:h-14' />
 				<h2>Sélections de projets</h2>
 			</div>
+			<div>
+				<span className='font-poppins text-xl flex justify-center mt-32'>
+					Ces projets ne sont pas des clones : ils ont une âme
+				</span>
+			</div>
 			<div className='flex flex-col gap-4'>
 				<ProjectMockUp
 					website='https://coworkezmalin.com'
