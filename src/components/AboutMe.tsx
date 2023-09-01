@@ -12,14 +12,14 @@ const AboutMe = () => {
 				height={400}
 				priority={true}
 				className={clsx(
-					'absolute left-[400px] -bottom-4 lg:w-[220px] rounded-sm'
+					'absolute right-[400px] -bottom-4 lg:w-[320px] rounded-sm'
 				)}
 			/>
 			<div className='w-[65vw] pt-12 flex-col gap-16 mx-auto'>
 				<h2 className='font-poppins text-3xl uppercase first-letter:text-5xl'>
 					A propos de moi
 				</h2>
-				<div className='mt-[70px] w-[90%] flex flex-col items-end gap-8 font-poppins '>
+				<div className='mt-[90px] w-[90%] flex flex-col gap-8 font-poppins '>
 					<p className='text-xl w-1/2'>
 						D'abord formé au développement front-end avec une
 						spécialisation sur le framework React, j'ai continué mon
