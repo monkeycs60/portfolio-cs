@@ -9,7 +9,7 @@ const TechStack = () => {
 					<h3 className='text-xl lg:text-3xl '>Tech Stack</h3>
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
 				</div>
-				<div className='flex mt-[100px] h-[350px] w-[70%] bg-gray-100 items-center justify-between text-lg font-poppins p-20'>
+				<div className='flex mt-[100px] h-[350px] w-[82%] bg-gray-100 items-center justify-between text-lg font-poppins p-20'>
 					<div className='flex-col'>
 						<div className='flex gap-10'>
 							<Image
@@ -59,18 +59,39 @@ const TechStack = () => {
 								alt='Logo'
 								width={60}
 								height={60}
-								className='w-[100px] h-[100px] '
+								className='w-[80px] h-[80px] '
 							/>
 							<Image
 								src={'/next-text-logo.png'}
 								alt='Logo'
 								width={1200}
 								height={719}
-								className='w-[120px] h-[70px] translate-y-2'
+								className='w-[90px] h-[55px] translate-y-2'
 							/>
 						</div>
 						<div className='text-center mt-8'>
 							<span>Fullstack</span>
+						</div>
+					</div>
+					<div className='flex-col'>
+						<div className='flex gap-10'>
+							<Image
+								src={'/photoshop-logo.png'}
+								alt='Logo'
+								width={2101}
+								height={2048}
+								className='w-[72px] h-[72px]'
+							/>
+							<Image
+								src={'/figma-logo.png'}
+								alt='Logo'
+								width={2048}
+								height={2048}
+								className='w-[72px] h-[72px] rounded-2xl'
+							/>
+						</div>
+						<div className='text-center mt-8'>
+							<span>Design</span>
 						</div>
 					</div>
 				</div>
