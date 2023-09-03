@@ -1,7 +1,3 @@
-import clsx from 'clsx';
-import Image from 'next/image';
-import React from 'react';
-
 const AboutMe = () => {
 	return (
 		<div className='w-full relative pt-[50px] pb-[100px] 3xl:py-0 3xl:h-[40vh] p-4 flex flex-col bg-secondary text-primary overflow-hidden'>

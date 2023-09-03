@@ -12,10 +12,7 @@ interface ProjectDetailsProps {
 	};
 }
 
-const ProjectDetails = ({
-	categories,
-	texts,
-}: ProjectDetailsProps) => {
+const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 	const [activeTab, setActiveTab] = useState(categories[1]);
 
 	const detailsTab = [
@@ -29,8 +26,8 @@ const ProjectDetails = ({
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col max-w-[1200px] h-[400px] lg:h-[600px] mx-auto mt-[5vh] mb-[5vh] w-full font-circularLight p-4 '>
-			<div className='flex relative justify-between'>
+		<div className='flex flex-col h-[400px] lg:h-[600px] my-[5vh] w-screen font-circularLight  bg-secondary text-primary'>
+			<div className='flex relative justify-between w-[65%] mx-auto mt-20'>
 				{categories.map((category, index) => (
 					<span
 						key={index}
@@ -41,11 +38,11 @@ const ProjectDetails = ({
 				))}
 
 				{/* Barre continue */}
-				<div className='absolute w-full h-[8px] bg-gray-cool-300 -bottom-6 rounded-xl'></div>
+				<div className='absolute w-full h-[8px] bg-gray-400 -bottom-6 rounded-xl'></div>
 
 				{/* Indicateur de sélection */}
 				<div
-					className='absolute h-[8px] rounded-xl bg-black -bottom-6 transition-all z-50 duration-300'
+					className='absolute h-[8px] rounded-xl bg-yellow-500 -bottom-6 transition-all z-50 duration-300'
 					style={{
 						width: `${indicatorWidth}%`,
 						transform: `translateX(${
@@ -53,7 +50,9 @@ const ProjectDetails = ({
 						}%)`,
 					}}></div>
 			</div>
-			<div className='mt-20 lg:text-lg'>{detailsTab[selectedIndex]}</div>
+			<div className='w-[65%] mx-auto mt-32 lg:text-lg'>
+				{detailsTab[selectedIndex]}
+			</div>
 		</div>
 	);
 };
