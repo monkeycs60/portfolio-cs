@@ -1,10 +1,6 @@
 {
 	"chiaroscuro": {
-		"categories": [
-			"Fonctionnalités",
-			"Description du projet",
-			"Technologies utilisées"
-		],
+		"categories": ["Fonctionnalités", "Description", "Technologies"],
 		"texts": {
 			"Fonctionnalités": "Texte sur 'Mon rôle'.",
 			"Description du projet": "Description détaillée du projet.",
@@ -14,8 +10,8 @@
 	"coworkez": {
 		"categories": [
 			"Fonctionnalités",
-			"Description du projet",
-			"Technologies utilisées"
+			"Description",
+			"Technologies"
 		],
 		"texts": {
 			"Fonctionnalités": "Texte sur <strong>Mon rôle</strong> lorem30 lorem30 lorem30 .",

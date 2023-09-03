@@ -19,8 +19,7 @@ const Hero = () => {
 						<div className='w-[80%] mt-[5vh] flex items-center font-poppins text-2xl '>
 							<p className=''>
 								Je cherchais un métier qui me permette de matérialiser
-								mes idées en créant des projets. Je cherchais à avoir un
-								impact sur le monde. Je suis devenu développeur.
+								mes idées. Je voulais créer quelque chose. Je suis devenu développeur.
 							</p>
 						</div>
 						<div className='flex mt-[5vh] gap-12 font-poppins text-2xl'>
