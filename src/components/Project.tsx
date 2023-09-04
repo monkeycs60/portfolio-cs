@@ -91,7 +91,7 @@ const Project = () => {
 			<ProjectDetails
 				categories={chiaroscuro.categories}
 				texts={{
-					role: <CoworkezFeatures />,
+					role: <ChiaroscuroFeatures />,
 					description: <ChiaroscuroDescription />,
 					technologies: <ChiaroscuroTechnologies />,
 				}}

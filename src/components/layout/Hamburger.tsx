@@ -102,7 +102,7 @@ const Hamburger = ({
 			</div>
 			<X
 				size={40}
-				className='absolute xl:w-12 xl:h-12 top-16 right-16 text-yellow-500 rotate-90'
+				className='absolute xl:w-12 xl:h-12 top-16 right-16 text-yellow-500 rotate-90 cursor-pointer'
 				onClick={toggleHamburgerMenu}
 			/>
 		</motion.section>
