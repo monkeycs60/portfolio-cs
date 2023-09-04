@@ -1,5 +1,15 @@
+import { FC, MouseEventHandler } from 'react';
 import clsx from 'clsx';
 import Link from 'next/link';
+
+interface ContactButtonProps {
+	Icon: FC;
+	label: { default: string; toggled?: string };
+	link?: string;
+	onClick?: MouseEventHandler<HTMLButtonElement>;
+	isToggleable?: boolean;
+	isToggled?: boolean;
+}
 
 const ContactButton = ({
 	Icon,
@@ -8,8 +18,8 @@ const ContactButton = ({
 	onClick,
 	isToggleable,
 	isToggled,
-}) => (
-	<Link href={link} target='_blank'>
+}: ContactButtonProps) => {
+	const buttonContent = (
 		<button
 			className={clsx(
 				'w-[400px] h-[90px] flex justify-center items-center gap-4 font-poppins px-8 py-4 bg-secondary text-tercary border-secondary border-[2px]',
@@ -21,7 +31,15 @@ const ContactButton = ({
 				{isToggleable && isToggled ? label.toggled : label.default}
 			</span>
 		</button>
-	</Link>
-);
+	);
+
+	return link ? (
+		<Link href={link} target='_blank'>
+			{buttonContent}
+		</Link>
+	) : (
+		buttonContent
+	);
+};
 
 export default ContactButton;
