@@ -2,7 +2,9 @@ import Image from 'next/image';
 
 const TechStack = () => {
 	return (
-		<div className='w-[65vw] mx-auto relative pt-[70px] flex flex-col bg-primary text-secondary overflow-hidden'>
+		<div
+			id='stack'
+			className='w-[65vw] mx-auto relative pt-[70px] flex flex-col bg-primary text-secondary overflow-hidden'>
 			<div className='flex flex-col gap-10 justify-center items-center text-2xl'>
 				<div className='flex gap-4 font-poppins  w-full'>
 					<h3 className='text-xl lg:text-3xl '>Tech Stack</h3>

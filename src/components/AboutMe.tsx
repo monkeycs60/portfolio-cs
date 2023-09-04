@@ -1,6 +1,8 @@
 const AboutMe = () => {
 	return (
-		<div className='w-full relative pt-[50px] pb-[100px] 3xl:pt-[30px] 3xl:pb-[80px] p-4 flex flex-col bg-secondary text-primary overflow-hidden'>
+		<div
+			id='about'
+			className='w-full relative pt-[50px] pb-[100px] 3xl:pt-[30px] 3xl:pb-[80px] p-4 flex flex-col bg-secondary text-primary overflow-hidden'>
 			<div className='w-[65vw] pt-12 flex-col gap-16 mx-auto'>
 				<div className='flex gap-4'>
 					<h2 className='font-poppins text-3xl'>A propos de moi</h2>{' '}

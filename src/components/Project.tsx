@@ -19,9 +19,9 @@ const { chiaroscuro, coworkez } = projectDetails;
 const Project = () => {
 	return (
 		<>
-			<div className=' w-[65%] m-auto flex flex-col pt-[8vh] 3xl:pt-[13vh] '>
+			<div id='projects' className=' w-[65%] m-auto flex flex-col pt-[8vh] 3xl:pt-[13vh] '>
 				<div className='flex gap-4 font-poppins  w-full'>
-					<h3 className='text-xl lg:text-3xl '>Mes réalisations</h3>
+					<h3 className='text-xl lg:text-3xl'>Mes réalisations</h3>
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
 				</div>
 				<div className='pt-12'>
