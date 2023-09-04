@@ -12,15 +12,21 @@ const Navbar = () => {
 
 	return (
 		<>
+			{isHamburgerOpen && (
+				<div
+					className='fixed top-0 left-0 w-screen h-screen bg-black opacity-40 z-[90]'
+					onClick={() => {
+						toggleHamburgerMenu();
+					}}></div>
+			)}
 			{isHamburgerOpen ? (
 				<Hamburger
 					isHamburgerOpen={isHamburgerOpen}
 					toggleHamburgerMenu={toggleHamburgerMenu}
 				/>
 			) : (
-
 				<AlignJustify
-					className='fixed xl:w-10 xl:h-10 top-[6vh] right-[8vw] text-yellow-500 z-50'
+					className='fixed xl:w-10 xl:h-10 top-[6vh] right-[8vw] text-yellow-500 z-50 cursor-pointer'
 					onClick={toggleHamburgerMenu}
 				/>
 			)}
