@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { MoveDown } from 'lucide-react';
 
 const TechStack = () => {
 	return (

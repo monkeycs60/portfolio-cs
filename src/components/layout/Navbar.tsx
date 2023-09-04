@@ -3,13 +3,27 @@
 import Link from 'next/link';
 import { AlignJustify, GitCompare, GitMerge } from 'lucide-react';
 import { useState } from 'react';
+import useHamburgerMenu from '@/hooks/useHamburgerMenu';
+import Hamburger from './Hamburger';
 
 const Navbar = () => {
 	const [isHover, setIsHover] = useState(false);
+	const { isHamburgerOpen, toggleHamburgerMenu } = useHamburgerMenu();
 
 	return (
 		<>
-			<AlignJustify className='fixed xl:w-10 xl:h-10 top-[6vh] right-[8vw] text-yellow-500 z-50' />
+			{isHamburgerOpen ? (
+				<Hamburger
+					isHamburgerOpen={isHamburgerOpen}
+					toggleHamburgerMenu={toggleHamburgerMenu}
+				/>
+			) : (
+
+				<AlignJustify
+					className='fixed xl:w-10 xl:h-10 top-[6vh] right-[8vw] text-yellow-500 z-50'
+					onClick={toggleHamburgerMenu}
+				/>
+			)}
 			{!isHover ? (
 				<Link
 					href='https://github.com/monkeycs60'

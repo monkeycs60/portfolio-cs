@@ -19,11 +19,12 @@ const Hero = () => {
 						<div className='w-[80%] mt-[5vh] flex items-center font-poppins text-2xl '>
 							<p className=''>
 								Je cherchais un métier qui me permette de matérialiser
-								mes idées. Je voulais créer quelque chose. Je suis devenu développeur.
+								mes idées. Je voulais créer quelque chose. Je suis
+								devenu développeur.
 							</p>
 						</div>
 						<div className='flex mt-[5vh] gap-12 font-poppins text-2xl'>
-							<Link href='https://www.linkedin.com/in/your-profile-name/'>
+							<Link href='#contact'>
 								<button className='px-8 py-4 bg-secondary text-tercary border-secondary border-[2px] hover:text-secondary hover:bg-primary'>
 									Me contacter
 								</button>
