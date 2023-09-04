@@ -19,7 +19,7 @@ const { chiaroscuro, coworkez } = projectDetails;
 const Project = () => {
 	return (
 		<>
-			<div id='projects' className=' w-[65%] m-auto flex flex-col pt-[8vh] 3xl:pt-[13vh] '>
+			<div id='projects' className=' w-[65%] m-auto flex flex-col pt-[13vh]'>
 				<div className='flex gap-4 font-poppins  w-full'>
 					<h3 className='text-xl lg:text-3xl'>Mes réalisations</h3>
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
@@ -36,10 +36,10 @@ const Project = () => {
 						macAlt='my project Chiaroscuro mobile version'
 						macWidth={1092}
 						macHeight={664}
-						macClassName='absolute bottom-0 -left-[50px] lg:left-[230px] 3xl:left-[200px] cursor-pointer hover:brightness-50 scale-[60%] lg:scale-[82%] 3xl:scale-100'
+						macClassName='absolute bottom-0 -left-[50px] lg:left-[0px] 3xl:left-[200px] cursor-pointer hover:brightness-50 scale-[60%] lg:scale-[78%] 3xl:scale-100'
 						iphoneSrc='/mobile-coworkez.png'
 						iphoneAlt='my project Chiaroscuro mobile version'
-						iphoneClassName='absolute scale-[20%] lg:scale-[45%] 3xl:scale-[55%] -bottom-[270px] lg:-bottom-[250px] left-[120px] lg:left-[1180px] 3xl:left-[1300px] cursor-pointer hover:brightness-50'
+						iphoneClassName='absolute scale-[20%] lg:scale-[32%] 3xl:scale-[40%] -bottom-[310px] 3xl:-bottom-[340px] left-[120px] lg:left-[900px] 3xl:left-[1300px] cursor-pointer hover:brightness-50'
 					/>
 					<div className='flex flex-col justify-center items-center gap-4 font-poppins'>
 						<h1 className='text-center text-3xl lg:text-4xl 3xl:text-5xl 3xl:mt-32 text-gray-cool-700'>
@@ -62,17 +62,17 @@ const Project = () => {
 				}}
 			/>
 			<div className=' w-[65%] m-auto p-4 flex flex-col '>
-				<div className='flex flex-col gap-4 mb-[10vh]'>
+				<div className='flex flex-col gap-4 4xl:mb-[10vh]'>
 					<ProjectMockUp
 						website='https://restaurant-app-67d7.vercel.app/'
 						macSrc='/desktop-chiaroscuro.png'
 						macAlt='my project Chiaroscuro mobile version'
 						macWidth={1117}
 						macHeight={664}
-						macClassName='absolute bottom-0 -left-[50px] lg:left-[580px] 3xl:left-[660px] cursor-pointer hover:brightness-150 scale-[60%] lg:scale-[82%] 3xl:scale-100'
+						macClassName='absolute bottom-0 -left-[50px] lg:left-[280px] 3xl:left-[580px] cursor-pointer hover:brightness-150 scale-[60%] lg:scale-[78%] 3xl:scale-100'
 						iphoneSrc='/mobile-chiaroscuro.png'
 						iphoneAlt='my project Chiaroscuro mobile version'
-						iphoneClassName='absolute scale-[20%] lg:scale-[45%] 3xl:scale-[55%] -bottom-[270px] lg:-bottom-[250px] left-[120px] lg:left-[200px] 3xl:left-[100px] hover:brightness-125 cursor-pointer'
+						iphoneClassName='absolute scale-[20%] lg:scale-[32%] 3xl:scale-[40%] -bottom-[270px] lg:-bottom-[310px] 3xl:-bottom-[340px] left-[120px] lg:-left-[70px] 3xl:left-[60px] hover:brightness-125 cursor-pointer'
 					/>
 					<div className='flex flex-col justify-center items-center gap-4 font-poppins'>
 						<h1 className='text-center text-3xl lg:text-4xl 3xl:text-5xl 3xl:mt-32 text-gray-cool-700'>

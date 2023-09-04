@@ -10,7 +10,7 @@ const TechStack = () => {
 					<h3 className='text-xl lg:text-3xl '>Tech Stack</h3>
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
 				</div>
-				<div className='flex mt-[100px] h-[350px] w-[82%] bg-gray-100 items-center justify-between text-lg font-poppins p-20'>
+				<div className='flex mt-[70px] 3xl:mt-[100px] h-[350px] w-full 3xl:w-[82%] bg-gray-100 items-center justify-between text-lg font-poppins p-20'>
 					<div className='flex-col'>
 						<div className='flex gap-10'>
 							<Image
