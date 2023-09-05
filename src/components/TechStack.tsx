@@ -10,7 +10,7 @@ const TechStack = () => {
 					<h3 className='text-xl lg:text-2xl 2xl:text-3xl'>Tech Stack</h3>
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
 				</div>
-				<div className='flex mt-[40px] gap-16 2xl:gap-0 flex-wrap 2xl:flex-nowrap 2xl:mt-[70px] 3xl:mt-[100px] 2xl:h-[350px] w-[80%] 2xl:w-full 3xl:w-[82%] bg-gray-100 items-center justify-between text-base 2xl:text-lg font-poppins p-20'>
+				<div className='flex mt-[40px] gap-16 2xl:gap-0 flex-wrap 2xl:flex-nowrap 2xl:mt-[70px] 3xl:mt-[100px] 2xl:h-[350px] w-[80%] 2xl:w-full 3xl:w-[90%] bg-gray-100 items-center justify-between text-base 2xl:text-lg font-poppins p-20'>
 					<div className='flex-col w-[33%] 2xl:w-auto'>
 						<div className='flex gap-10 justify-center 2xl:justify-normal'>
 							<Image
