@@ -16,7 +16,7 @@ import Image from 'next/image';
 
 export const CoworkezFeatures = () => {
 	return (
-		<div className='flex flex-col gap-8 font-poppins 2xl:text-xl'>
+		<div className='flex flex-col gap-8 font-poppins text-sm lg:text-base 2xl:text-xl'>
 			<ul className='flex flex-col gap-8'>
 				<li className='flex gap-8 '>
 					<div>
@@ -110,9 +110,11 @@ export const CoworkezFeatures = () => {
 
 export const CoworkezDescription = () => {
 	return (
-		<div className='flex flex-col gap-8 font-poppins 2xl:text-xl'>
+		<div className='flex flex-col gap-8 font-poppins text-sm lg:text-base 2xl:text-xl'>
 			<div className='flex flex-col gap-4'>
-				<span className='font-semibold text-xl'>Pourquoi ?</span>
+				<span className='font-semibold text-base lg:text-xl'>
+					Pourquoi ?
+				</span>
 				<p>
 					Chaque personne qui travaille à distance, en indépendant ou
 					déménage dans une nouvelle ville ressent le besoin d'appartenir à
@@ -123,7 +125,9 @@ export const CoworkezDescription = () => {
 				</p>
 			</div>
 			<div className='flex flex-col gap-4'>
-				<span className='font-semibold text-xl'>Comment ?</span>
+				<span className='font-semibold text-base lg:text-xl'>
+					Comment ?
+				</span>
 				<p>
 					J'ai remarqué que les espaces 'officiels' de coworking peuvent
 					être coûteux et inaccessibles pour beaucoup, notamment pour ceux
@@ -135,7 +139,7 @@ export const CoworkezDescription = () => {
 				</p>
 			</div>
 			<div className='flex flex-col gap-4'>
-				<span className='font-semibold text-xl'>Quoi ?</span>
+				<span className='font-semibold text-base lg:text-xl'>Quoi ?</span>
 				<p>
 					C'est là que{' '}
 					<span className='font-semibold'>coworkezmalin.com</span> entre en
@@ -153,15 +157,15 @@ export const CoworkezDescription = () => {
 export const CoworkezTechnologies = () => {
 	return (
 		<div className='flex flex-col gap-8 font-poppins '>
-			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-lg 2xl:text-2xl text-secondary px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col justify-start gap-6 lg:gap-4 font-semibold text-lg 2xl:text-2xl text-secondary px-4 lg:px-12 py-6'>
 				<h3>Front-End</h3>
-				<div className='flex gap-12 justify-center items-center '>
+				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap lg:flex-nowrap'>
 					<Image
 						src='/typescript.svg'
 						alt='typescript'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='front-typescript'
 						data-tooltip-content='Typescript'
 					/>
@@ -170,7 +174,7 @@ export const CoworkezTechnologies = () => {
 						alt='react'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='front-react'
 						data-tooltip-content='React'
 					/>
@@ -179,7 +183,7 @@ export const CoworkezTechnologies = () => {
 						alt='redux'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='front-redux'
 						data-tooltip-content='Redux'
 					/>
@@ -188,7 +192,7 @@ export const CoworkezTechnologies = () => {
 						alt='nextjs'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='front-nextjs'
 						data-tooltip-content='Next.js'
 					/>
@@ -197,7 +201,7 @@ export const CoworkezTechnologies = () => {
 						alt='tailwind'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='front-tailwind'
 						data-tooltip-content='Tailwind'
 					/>
@@ -206,7 +210,7 @@ export const CoworkezTechnologies = () => {
 						alt='framer'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='front-framer'
 						data-tooltip-content='Framer'
 					/>
@@ -215,7 +219,7 @@ export const CoworkezTechnologies = () => {
 						alt='shadcn ui'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='front-shadcn'
 						data-tooltip-content='Shadcn ui'
 					/>
@@ -230,15 +234,15 @@ export const CoworkezTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col justify-start gap-2 font-semibold text-lg 2xl:text-2xl text-secondary px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col justify-start gap-6 lg:gap-2 font-semibold text-lg 2xl:text-2xl text-secondary px-4 lg:px-12 py-6'>
 				<h3 className=''>Back-End</h3>
-				<div className='flex gap-12 justify-center items-center'>
+				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap lg:flex-nowrap'>
 					<Image
 						src='/typescript.svg'
 						alt='typescript'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='back-typescript'
 						data-tooltip-content='Typescript'
 					/>
@@ -247,7 +251,7 @@ export const CoworkezTechnologies = () => {
 						alt='node'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='back-node'
 						data-tooltip-content='Node'
 					/>
@@ -256,7 +260,7 @@ export const CoworkezTechnologies = () => {
 						alt='postgresql'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='back-postgresql'
 						data-tooltip-content='PostgreSQL'
 					/>
@@ -265,7 +269,7 @@ export const CoworkezTechnologies = () => {
 						alt='prisma'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='back-prisma'
 						data-tooltip-content='Prisma'
 					/>
@@ -274,7 +278,7 @@ export const CoworkezTechnologies = () => {
 						alt='neon db'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='back-neondb'
 						data-tooltip-content='Neon db'
 					/>
@@ -287,15 +291,15 @@ export const CoworkezTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-lg 2xl:text-2xl text-secondary px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col justify-start gap-6 lg:gap-4 font-semibold text-lg 2xl:text-2xl text-secondary px-4 lg:px-12 py-6'>
 				<h3 className=''>Services</h3>
-				<div className='flex gap-12 justify-center items-center'>
+				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap lg:flex-nowrap'>
 					<Image
 						src='/clerk.png'
 						alt='clerk'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='services-clerk'
 						data-tooltip-content='Clerk'
 					/>
@@ -304,7 +308,7 @@ export const CoworkezTechnologies = () => {
 						alt='google places'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='services-googleplaces'
 						data-tooltip-content='Google Maps API'
 					/>
@@ -313,7 +317,7 @@ export const CoworkezTechnologies = () => {
 						alt='aws'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='services-aws'
 						data-tooltip-content='AWS'
 					/>
@@ -322,7 +326,7 @@ export const CoworkezTechnologies = () => {
 						alt='cloud front'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='services-cloudfront'
 						data-tooltip-content='Cloudfront'
 					/>
@@ -331,7 +335,7 @@ export const CoworkezTechnologies = () => {
 						alt='route 53'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='services-route53'
 						data-tooltip-content='Route 53'
 					/>
@@ -340,7 +344,7 @@ export const CoworkezTechnologies = () => {
 						alt='s3'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='services-s3'
 						data-tooltip-content='S3'
 					/>
@@ -349,7 +353,7 @@ export const CoworkezTechnologies = () => {
 						alt='sendgrid'
 						width={60}
 						height={60}
-						className='lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
 						data-tooltip-id='services-sendgrid'
 						data-tooltip-content='Sendgrid'
 					/>

@@ -26,13 +26,13 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col h-[400px] lg:h-[800px] 3xl:h-[900px] my-[5vh] w-screen font-circularLight  bg-secondary text-primary'>
-			<div className='flex relative justify-between w-[65%] mx-auto mt-20'>
+		<div className='flex flex-col h-[960px] lg:h-[800px] 3xl:h-[900px] my-[5vh] w-screen font-circularLight  bg-secondary text-primary'>
+			<div className='flex relative justify-between w-[90%] lg:w-[65%] mx-auto mt-20'>
 				{categories.map((category, index) => (
 					<span
 						key={index}
 						onClick={() => setActiveTab(category)}
-						className={`cursor-pointer w-[400px] flex-1 text-center text-sm lg:text-xl 2xl:text-2xl `}>
+						className={`cursor-pointer w-[400px] font-semibold lg:font-normal flex-1 text-center text-sm lg:text-xl 2xl:text-2xl `}>
 						{category}
 					</span>
 				))}
@@ -50,7 +50,7 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 						}%)`,
 					}}></div>
 			</div>
-			<div className='w-[60%] 3xl:w-[35%] h-full flex flex-col justify-center mx-auto mt-6 py-16 2xl:text-lg'>
+			<div className='w-[90%] lg:w-[60%] 3xl:w-[35%] h-full flex flex-col justify-center mx-auto mt-6 py-16 2xl:text-lg'>
 				{detailsTab[selectedIndex]}
 			</div>
 		</div>
