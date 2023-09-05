@@ -111,39 +111,33 @@ export const ChiaroscuroFeatures = () => {
 export const ChiaroscuroDescription = () => {
 	return (
 		<div className='flex flex-col gap-8 font-poppins text-sm lg:text-base 2xl:text-md'>
-			<div className='flex flex-col gap-4'>
-				<span className='font-semibold text-xl'>Pourquoi ?</span>
+			<div className='flex flex-col gap-4 leading-7'>
 				<p>
-					Chaque personne qui travaille à distance, en indépendant ou
-					déménage dans une nouvelle ville ressent le besoin d'appartenir à
-					une communauté, d'échanger avec des pairs et de trouver des
-					espaces de travail confortables et abordables. La solitude du
-					télétravail peut être pesante, et trouver sa place dans une
-					nouvelle ville peut être compliqué.
+					Quand j'ai commencé ma formation à distance dans une ville que je
+					ne connaissais pas, je me suis assez vite senti tourner en rond.
+					Les journées étaient longues, et bien que passionné par mon
+					apprentissage, il me manquait ce petit brin de convivialité, ces
+					échanges avec des personnes qui partagent les mêmes défis. J'ai
+					cherché des espaces de coworking, mais entre ceux trop chers et
+					ceux toujours bondés, je n'étais pas satisfait.
 				</p>
 			</div>
 			<div className='flex flex-col gap-4'>
-				<span className='font-semibold text-xl'>Comment ?</span>
 				<p>
-					J'ai remarqué que les espaces 'officiels' de coworking peuvent
-					être coûteux et inaccessibles pour beaucoup, notamment pour ceux
-					qui lancent une nouvelle activité ou se reconvertissent. Par
-					ailleurs, je suis convaincu que chaque ville regorge d'endroits
-					non conventionnels mais parfaits pour le coworking - des cafés
-					aux lobbies d'hôtels. Cependant, sans une plateforme pour les
-					partager, ces spots restent souvent inconnus.
+					Et puis, une idée m'est venue : il y avait sûrement des coins
+					cachés de cette ville, des endroits où je pourrais à la fois
+					travailler tranquillement et rencontrer des gens sympas, et ce
+					sans me ruiner. Du coup, armé de détermination, j'ai créé
+					l'application fullstack Coworkez Malin.
 				</p>
 			</div>
 			<div className='flex flex-col gap-4'>
-				<span className='font-semibold text-xl'>Quoi ?</span>
 				<p>
-					C'est là que{' '}
-					<span className='font-semibold'>coworkezmalin.com</span> entre en
-					jeu. Cette plateforme communautaire vous permet de découvrir et
-					de partager ces endroits de coworking cachés, abordables et
-					conviviaux. Rejoignez une communauté où vous pouvez trouver le
-					meilleur endroit pour travailler, rencontrer de nouveaux visages,
-					et même partager un verre après le travail.
+					<span className='font-semibold'>coworkezmalin.com</span>,c'est un
+					peu le fruit de ma propre quête : un guide pour trouver les
+					meilleurs spots pour bosser, mais aussi un lieu pour connecter
+					les gens. Alors, si toi aussi tu cherches à donner un peu de
+					chaleur à tes journées de travail à distance, viens !
 				</p>
 			</div>
 		</div>
@@ -152,8 +146,8 @@ export const ChiaroscuroDescription = () => {
 
 export const ChiaroscuroTechnologies = () => {
 	return (
-		<div className='flex flex-col gap-8 font-poppins '>
-			<div className='bg-gray-200 flex flex-col justify-start gap-6 lg:gap-4 font-semibold text-lg 2xl:text-xl text-secondary px-4 lg:px-12 py-6'>
+		<div className='flex flex-col gap-8 font-poppins 2xl:items-center 3xl:items-start '>
+			<div className='bg-gray-200 flex flex-col 2xl:flex-row 2xl:justify-between 2xl:items-center 2xl:w-[80%] 3xl:w-[100%] justify-start gap-6 lg:gap-4 font-semibold text-lg 2xl:text-xl text-secondary px-4 lg:px-12 py-6'>
 				<h3>Front-End</h3>
 				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap lg:flex-nowrap'>
 					<Image
@@ -230,7 +224,7 @@ export const ChiaroscuroTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col justify-start gap-6 lg:gap-2 font-semibold text-lg 2xl:text-xl text-secondary px-4 lg:px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col 2xl:flex-row 2xl:items-center 2xl:justify-between 2xl:w-[80%] 3xl:w-[100%] justify-start gap-6 lg:gap-2 font-semibold text-lg 2xl:text-xl text-secondary px-4 lg:px-12 py-6'>
 				<h3 className=''>Back-End</h3>
 				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap lg:flex-nowrap'>
 					<Image
@@ -287,7 +281,7 @@ export const ChiaroscuroTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col justify-start gap-6 lg:gap-4 font-semibold text-lg 2xl:text-xl text-secondary px-4 lg:px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col 2xl:flex-row 2xl:justify-between 2xl:items-center 2xl:w-[80%] 3xl:w-[100%] justify-start gap-6 lg:gap-4 font-semibold text-lg 2xl:text-xl text-secondary px-4 lg:px-12 py-6'>
 				<h3 className=''>Services</h3>
 				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap lg:flex-nowrap'>
 					<Image
