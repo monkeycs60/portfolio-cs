@@ -111,7 +111,7 @@ export const ChiaroscuroFeatures = () => {
 export const ChiaroscuroDescription = () => {
 	return (
 		<div className='flex flex-col gap-8 font-poppins text-sm lg:text-base 2xl:text-md'>
-			<div className='flex flex-col gap-4 leading-7'>
+			<div className='flex flex-col gap-4 2xl:leading-7'>
 				<p>
 					Quand j'ai commencé ma formation à distance dans une ville que je
 					ne connaissais pas, je me suis assez vite senti tourner en rond.

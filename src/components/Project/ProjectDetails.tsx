@@ -26,7 +26,7 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col h-[960px] lg:h-[800px] 2xl:h-[620px] 3xl:h-[700px] my-[5vh] w-screen font-circularLight  bg-secondary text-primary'>
+		<div className='flex flex-col h-[850px] lg:h-[800px] 2xl:h-[620px] 3xl:h-[700px] my-[5vh] w-screen font-circularLight  bg-secondary text-primary'>
 			<div className='flex relative justify-between w-[90%] lg:w-[65%] mx-auto mt-20'>
 				{categories.map((category, index) => (
 					<span
