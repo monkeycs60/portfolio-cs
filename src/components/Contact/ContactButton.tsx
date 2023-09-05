@@ -22,7 +22,7 @@ const ContactButton = ({
 	const buttonContent = (
 		<button
 			className={clsx(
-				'w-[400px] h-[90px] flex justify-center items-center gap-4 font-poppins px-8 py-4 bg-secondary text-tercary border-secondary border-[2px]',
+				'w-[300px] 2xl:w-[400px] h-[90px] flex justify-center items-center gap-4 font-poppins px-8 py-4 bg-secondary text-tercary border-secondary border-[2px]',
 				' hover:text-secondary hover:bg-primary'
 			)}
 			onClick={onClick}>

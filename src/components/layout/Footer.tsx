@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Footer = () => {
 	return (
-		<div className='w-screen bg-secondary text-primary py-8 flex flex-col items-center font-poppins '>
+		<div className='lg:text-sm 2xl:text-base w-screen bg-secondary text-primary py-6 2xl:py-8 flex flex-col items-center font-poppins '>
 			<span className='flex items-center gap-4'>
 				<p>Ce site a été développé en</p>
 				<Image

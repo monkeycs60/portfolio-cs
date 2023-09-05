@@ -16,7 +16,7 @@ import Image from 'next/image';
 
 export const CoworkezFeatures = () => {
 	return (
-		<div className='flex flex-col gap-8 font-poppins text-xl'>
+		<div className='flex flex-col gap-8 font-poppins 2xl:text-xl'>
 			<ul className='flex flex-col gap-8'>
 				<li className='flex gap-8 '>
 					<div>
@@ -110,7 +110,7 @@ export const CoworkezFeatures = () => {
 
 export const CoworkezDescription = () => {
 	return (
-		<div className='flex flex-col gap-8 font-poppins text-xl'>
+		<div className='flex flex-col gap-8 font-poppins 2xl:text-xl'>
 			<div className='flex flex-col gap-4'>
 				<span className='font-semibold text-xl'>Pourquoi ?</span>
 				<p>
@@ -153,7 +153,7 @@ export const CoworkezDescription = () => {
 export const CoworkezTechnologies = () => {
 	return (
 		<div className='flex flex-col gap-8 font-poppins '>
-			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-2xl text-secondary px-12 py-4 py-6'>
+			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-lg 2xl:text-2xl text-secondary px-12 py-6'>
 				<h3>Front-End</h3>
 				<div className='flex gap-12 justify-center items-center '>
 					<Image
@@ -230,7 +230,7 @@ export const CoworkezTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col justify-start gap-2 font-semibold text-2xl text-secondary px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col justify-start gap-2 font-semibold text-lg 2xl:text-2xl text-secondary px-12 py-6'>
 				<h3 className=''>Back-End</h3>
 				<div className='flex gap-12 justify-center items-center'>
 					<Image
@@ -287,7 +287,7 @@ export const CoworkezTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-2xl text-secondary px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-lg 2xl:text-2xl text-secondary px-12 py-6'>
 				<h3 className=''>Services</h3>
 				<div className='flex gap-12 justify-center items-center'>
 					<Image

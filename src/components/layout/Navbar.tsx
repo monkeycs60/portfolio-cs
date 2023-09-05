@@ -33,7 +33,7 @@ const Navbar = () => {
 				) : (
 					<AlignJustify
 						key='alignJustifyIcon'
-						className='fixed xl:w-10 xl:h-10 top-[6vh] right-[8vw] text-yellow-500 z-50 cursor-pointer'
+						className='fixed xl:w-8 xl:h-8 2xl:w-10 2xl:h-10 top-[6vh] right-[8vw] text-yellow-500 z-50 cursor-pointer'
 						onClick={toggleHamburgerMenu}
 					/>
 				)}
@@ -45,7 +45,7 @@ const Navbar = () => {
 					className='z-50'
 					onMouseEnter={() => setIsHover(true)}
 					onMouseLeave={() => setIsHover(false)}>
-					<GitMerge className='fixed top-[6vh] left-[8vw] text-yellow-500 xl:w-12 xl:h-12 transition-all duration-300' />
+					<GitMerge className='fixed top-[6vh] left-[8vw] text-yellow-500 xl:w-8 xl:h-8 2xl:w-12 2xl:h-12 transition-all duration-300' />
 				</Link>
 			) : (
 				<Link
@@ -54,7 +54,7 @@ const Navbar = () => {
 					className='z-50'
 					onMouseLeave={() => setIsHover(false)}>
 					<GitCompare
-						className='fixed text-yellow-500 top-[6vh] left-[8vw] xl:w-12 xl:h-12 transition-all duration-300 z-50'
+						className='fixed text-yellow-500 top-[6vh] left-[8vw] xl:w-8 xl:h-8 2xl:w-12 2xl:h-12 transition-all duration-300 z-50'
 						onMouseEnter={() => setIsHover(true)}
 						onMouseLeave={() => {
 							setIsHover(false);

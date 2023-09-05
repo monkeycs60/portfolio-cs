@@ -16,8 +16,8 @@ import Image from 'next/image';
 
 export const ChiaroscuroFeatures = () => {
 	return (
-		<div className='flex flex-col gap-8 font-poppins text-xl'>
-			<ul className='flex flex-col gap-4'>
+		<div className='flex flex-col gap-8 font-poppins text-base 2xl:text-xl'>
+			<ul className='flex flex-col gap-8'>
 				<li className='flex gap-8 '>
 					<div>
 						-{' '}
@@ -110,8 +110,8 @@ export const ChiaroscuroFeatures = () => {
 
 export const ChiaroscuroDescription = () => {
 	return (
-		<div className='flex flex-col gap-8 font-poppins text-xl'>
-			<div className='flex flex-col gap-2'>
+		<div className='flex flex-col gap-8 font-poppins 2xl:text-xl'>
+			<div className='flex flex-col gap-4'>
 				<span className='font-semibold text-xl'>Pourquoi ?</span>
 				<p>
 					Chaque personne qui travaille à distance, en indépendant ou
@@ -122,7 +122,7 @@ export const ChiaroscuroDescription = () => {
 					nouvelle ville peut être compliqué.
 				</p>
 			</div>
-			<div>
+			<div className='flex flex-col gap-4'>
 				<span className='font-semibold text-xl'>Comment ?</span>
 				<p>
 					J'ai remarqué que les espaces 'officiels' de coworking peuvent
@@ -134,7 +134,7 @@ export const ChiaroscuroDescription = () => {
 					partager, ces spots restent souvent inconnus.
 				</p>
 			</div>
-			<div>
+			<div className='flex flex-col gap-4'>
 				<span className='font-semibold text-xl'>Quoi ?</span>
 				<p>
 					C'est là que{' '}
@@ -153,7 +153,7 @@ export const ChiaroscuroDescription = () => {
 export const ChiaroscuroTechnologies = () => {
 	return (
 		<div className='flex flex-col gap-8 font-poppins '>
-			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-2xl text-secondary px-12 py-4 py-6'>
+			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-lg 2xl:text-2xl text-secondary px-12 py-6'>
 				<h3>Front-End</h3>
 				<div className='flex gap-12 justify-center items-center '>
 					<Image
@@ -230,7 +230,7 @@ export const ChiaroscuroTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col justify-start gap-2 font-semibold text-2xl text-secondary px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col justify-start gap-2 font-semibold text-lg 2xl:text-2xl text-secondary px-12 py-6'>
 				<h3 className=''>Back-End</h3>
 				<div className='flex gap-12 justify-center items-center'>
 					<Image
@@ -287,7 +287,7 @@ export const ChiaroscuroTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-2xl text-secondary px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col justify-start gap-4 font-semibold text-lg 2xl:text-2xl text-secondary px-12 py-6'>
 				<h3 className=''>Services</h3>
 				<div className='flex gap-12 justify-center items-center'>
 					<Image

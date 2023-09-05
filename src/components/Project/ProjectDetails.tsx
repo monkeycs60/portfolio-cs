@@ -32,7 +32,7 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 					<span
 						key={index}
 						onClick={() => setActiveTab(category)}
-						className={`cursor-pointer w-[400px] flex-1 text-center text-sm lg:text-xl `}>
+						className={`cursor-pointer w-[400px] flex-1 text-center text-sm lg:text-xl 2xl:text-2xl `}>
 						{category}
 					</span>
 				))}
@@ -50,7 +50,7 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 						}%)`,
 					}}></div>
 			</div>
-			<div className='w-[60%] 3xl:w-[35%] h-full flex flex-col  justify-center mx-auto mt-6 py-16 lg:text-lg'>
+			<div className='w-[60%] 3xl:w-[35%] h-full flex flex-col justify-center mx-auto mt-6 py-16 2xl:text-lg'>
 				{detailsTab[selectedIndex]}
 			</div>
 		</div>

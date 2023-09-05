@@ -26,7 +26,7 @@ const ProjectMockUp = ({
 	iphoneClassName,
 }: ProjectMockUpProps) => {
 	return (
-		<div className='3xl:mt-[8vh] relative h-[30vh] lg:h-[70vh] 3xl:h-[55vh]'>
+		<div className='3xl:mt-[8vh] relative h-[30vh] lg:h-[60vh] 2xl:h-[70vh] 3xl:h-[55vh]'>
 			<Link href={website} target='_blank'>
 				<Image
 					src={macSrc}

@@ -9,21 +9,21 @@ const Hero = () => {
 				<div className='h-full flex flex-col '>
 					<div className='flex flex-col h-full gap-14 font-eva text-secondary'>
 						<div className='flex flex-col gap-4'>
-							<h1 className='text-8xl'>
+							<h1 className='text-6xl 2xl:text-8xl'>
 								Clément <span className='block uppercase'>Serizay</span>
 							</h1>
-							<h2 className='text-4xl font-poppins'>
+							<h2 className='text-2xl 2xl:text-4xl font-poppins'>
 								Développeur Fullstack Javascript
 							</h2>
 						</div>
-						<div className='w-[80%] mt-[5vh] flex items-center font-poppins text-2xl '>
+						<div className='2xl:w-[80%] mt-[5vh] flex items-center font-poppins text-lg 2xl:text-2xl '>
 							<p className=''>
 								Je cherchais un métier qui me permette de matérialiser
 								mes idées. Je voulais créer quelque chose. Je suis
 								devenu développeur.
 							</p>
 						</div>
-						<div className='flex mt-[5vh] gap-12 font-poppins text-2xl'>
+						<div className='flex mt-6 2xl:mt-[5vh] gap-12 font-poppins 2xl:text-2xl'>
 							<Link href='#contact'>
 								<button className='px-8 py-4 bg-secondary text-tercary border-secondary border-[2px] hover:text-secondary hover:bg-primary'>
 									Me contacter
@@ -37,7 +37,7 @@ const Hero = () => {
 						</div>
 					</div>
 				</div>
-				<div className='h-1/2 relative justify-end items-start flex border-[0px] border-gray-300 rounded-full -translate-y-32 '>
+				<div className='h-1/2 relative justify-end items-start flex border-[0px] border-gray-300 rounded-full translate-x-8 -translate-y-20 2xl:-translate-x-0 2xl:-translate-y-32 '>
 					<Image
 						src={'/cs-test-3.png'}
 						alt='Logo'
@@ -46,7 +46,8 @@ const Hero = () => {
 						priority={true}
 						className={clsx(
 							' w-[250px] translate-y-16',
-							'xl:w-[1300px] ',
+							'xl:w-[1000px] ',
+							'2xl:w-[1300px] ',
 							'3xl:w-[1500px] 3xl:-bottom-0 '
 						)}
 					/>
