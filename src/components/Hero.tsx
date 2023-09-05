@@ -9,7 +9,7 @@ const Hero = () => {
 				<div className='h-full flex flex-col '>
 					<div className='flex flex-col h-full gap-8 lg:gap-14 font-eva text-secondary'>
 						<div className='flex flex-col gap-4'>
-							<h1 className='text-6xl 2xl:text-8xl'>
+							<h1 className='text-5xl lg:text-6xl 2xl:text-8xl'>
 								Clément <span className='block uppercase'>Serizay</span>
 							</h1>
 							<h2 className='text-2xl 2xl:text-4xl font-poppins'>
