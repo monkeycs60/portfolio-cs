@@ -16,7 +16,7 @@ const Hero = () => {
 								Développeur Fullstack Javascript
 							</h2>
 						</div>
-						<div className='2xl:w-[80%] lg:mt-[5vh] flex items-center font-poppins lg:text-lg 2xl:text-2xl '>
+						<div className='2xl:w-[80%] lg:mt-[5vh] flex items-center font-poppins lg:text-lg 2xl:text-xl '>
 							<p className=''>
 								Je cherchais un métier qui me permette de matérialiser
 								mes idées. Je voulais créer quelque chose. Je suis

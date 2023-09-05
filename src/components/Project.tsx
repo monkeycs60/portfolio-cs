@@ -28,7 +28,7 @@ const Project = () => {
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
 				</div>
 				<div className='pt-12'>
-					<span className='font-poppins text-sm lg:text-base 2xl:text-xl'>
+					<span className='font-poppins text-sm lg:text-base 2xl:text-lg'>
 						Ces projets ne sont pas des clones. Ils ont une âme.
 					</span>
 				</div>
@@ -45,7 +45,7 @@ const Project = () => {
 						iphoneClassName='absolute scale-[23%] lg:scale-[20%] 2xl:scale-[32%] 3xl:scale-[40%] -bottom-[260px] lg:-bottom-[410px] 2xl:-bottom-[310px] 3xl:-bottom-[340px] lg:left-[520px] 2xl:left-[900px] 3xl:left-[1300px] cursor-pointer hover:brightness-50'
 					/>
 					<div className='flex flex-col justify-center items-center gap-4 font-poppins'>
-						<h1 className='text-center text-3xl 2xl:text-4xl 3xl:text-5xl 3xl:mt-32 text-gray-cool-700'>
+						<h1 className='text-center text-3xl 2xl:text-3xl 3xl:text-4xl 3xl:mt-32 text-gray-cool-700'>
 							Coworkez Malin
 						</h1>
 						<Link href={'https://www.coworkezmalin.com'} target='_blank'>
@@ -78,7 +78,7 @@ const Project = () => {
 						iphoneClassName='absolute scale-[36%] lg:scale-[20%] 2xl:scale-[32%] 3xl:scale-[40%] -bottom-[120px] lg:-bottom-[420px] 2xl:-bottom-[310px] 3xl:-bottom-[340px] lg:-left-[120px] 2xl:-left-[70px] 3xl:left-[60px] hover:brightness-125 cursor-pointer'
 					/>
 					<div className='flex flex-col justify-center items-center gap-4 font-poppins'>
-						<h1 className='text-center text-3xl 2xl:text-4xl 3xl:text-5xl 3xl:mt-32 text-gray-cool-700'>
+						<h1 className='text-center text-3xl 2xl:text-3xl 3xl:text-4xl 3xl:mt-32 text-gray-cool-700'>
 							Chiaroscuro
 						</h1>
 						<Link

@@ -26,13 +26,13 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col h-[960px] lg:h-[800px] 3xl:h-[900px] my-[5vh] w-screen font-circularLight  bg-secondary text-primary'>
+		<div className='flex flex-col h-[960px] lg:h-[800px] 2xl:h-[760px] 3xl:h-[800px] my-[5vh] w-screen font-circularLight  bg-secondary text-primary'>
 			<div className='flex relative justify-between w-[90%] lg:w-[65%] mx-auto mt-20'>
 				{categories.map((category, index) => (
 					<span
 						key={index}
 						onClick={() => setActiveTab(category)}
-						className={`cursor-pointer w-[400px] font-semibold lg:font-normal flex-1 text-center text-sm lg:text-xl 2xl:text-2xl `}>
+						className={`cursor-pointer w-[400px] font-semibold lg:font-normal flex-1 text-center text-sm lg:text-xl 2xl:text-xl `}>
 						{category}
 					</span>
 				))}
