@@ -28,7 +28,7 @@ const TechStack = () => {
 								className='w-[50px] h-[50px] 2xl:w-[60px] 2xl:h-[60px] 3xl:w-[65px] 3xl:h-[65px]'
 							/>
 						</div>
-						<div className='text-center mt-8 font-semibold'>
+						<div className='text-center lg:mt-8 font-semibold'>
 							<span>Fondamentaux</span>
 						</div>
 					</div>

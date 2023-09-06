@@ -27,7 +27,7 @@ const Hamburger = ({
 			variants={variants}
 			transition={{ duration: 0.5 }}
 			className='fixed right-0 top-0 z-[100] h-screen w-screen xl:w-[25vw] 2xl:w-[20vw] 3xl:w-[15vw] overflow-hidden bg-secondary text-primary'>
-			<div className=' flex flex-col  justify-center gap-[5vh] h-screen items-center text-center  text-base font-poppins lg:text-2xl '>
+			<div className=' flex flex-col h-screen justify-center gap-[5vh] items-center text-center  text-base font-poppins lg:text-2xl '>
 				<div className='flex flex-col gap-6'>
 					<Link
 						href={'#home'}
@@ -47,14 +47,14 @@ const Hamburger = ({
 						onClick={toggleHamburgerMenu}>
 						Compétences
 					</Link>
-					<div className='mt-12'>
+					<div className='mt-6 lg:mt-12'>
 						<Link
 							href={'#projects'}
 							className='linkHoverEffect hover:text-yellow-500'
 							onClick={toggleHamburgerMenu}>
 							Mes projets
 						</Link>
-						<div className='flex flex-col border-[1px]  p-4 mt-8 gap-4 '>
+						<div className='flex flex-col border-[1px] p-4 mt-8 gap-4 '>
 							<Link
 								href={'https://www.coworkezmalin.com/'}
 								target='_blank'
@@ -72,7 +72,7 @@ const Hamburger = ({
 						</div>
 					</div>
 				</div>
-				<div className='flex flex-col gap-12'>
+				<div className='flex flex-col gap-4 lg:gap-12'>
 					<div className='w-[100%] bg-yellow-500 h-[1px] '></div>
 					<Link
 						href={'#contact'}
