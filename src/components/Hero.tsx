@@ -16,14 +16,14 @@ const Hero = () => {
 								Développeur Fullstack Javascript
 							</h2>
 						</div>
-						<div className='2xl:w-[80%] lg:mt-[5vh] flex items-center font-poppins lg:text-lg 2xl:text-xl '>
+						<div className='2xl:w-[80%] lg:mt-[5vh] flex items-center font-poppins text-sm lg:text-lg 2xl:text-xl 3xl:text-2xl'>
 							<p className=''>
 								Je cherchais un métier qui me permette de matérialiser
 								mes idées. Je voulais créer quelque chose. Je suis
 								devenu développeur.
 							</p>
 						</div>
-						<div className=' lg:mt-6 2xl:mt-[5vh] font-poppins 2xl:text-2xl'>
+						<div className=' lg:mt-6 2xl:mt-[5vh] font-poppins text-sm lg:text-base 2xl:text-2xl'>
 							<div className='flex justify-center lg:hidden'>
 								<Image
 									src={'/cs-test-3.png'}
@@ -31,7 +31,7 @@ const Hero = () => {
 									width={837}
 									height={648}
 									priority={true}
-									className=' w-[250px]'
+									className=' w-[300px]'
 								/>
 							</div>
 							<div className='mt-6 lg:mt-0 flex flex-col justify-center items-center lg:justify-normal lg:items-start lg:flex-row gap-4 lg:gap-12'>

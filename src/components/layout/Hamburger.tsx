@@ -27,7 +27,7 @@ const Hamburger = ({
 			variants={variants}
 			transition={{ duration: 0.5 }}
 			className='fixed right-0 top-0 z-[100] h-screen w-screen xl:w-[25vw] 2xl:w-[20vw] 3xl:w-[15vw] overflow-hidden bg-secondary text-primary'>
-			<div className=' flex flex-col  justify-center gap-[5vh] h-screen items-center text-center  text-lg font-poppins sm:text-2xl '>
+			<div className=' flex flex-col  justify-center gap-[5vh] h-screen items-center text-center  text-base font-poppins lg:text-2xl '>
 				<div className='flex flex-col gap-6'>
 					<Link
 						href={'#home'}
@@ -58,14 +58,14 @@ const Hamburger = ({
 							<Link
 								href={'https://www.coworkezmalin.com/'}
 								target='_blank'
-								className='linkHoverEffect text-lg hover:text-yellow-500'
+								className='linkHoverEffect text-xs lg:text-lg hover:text-yellow-500'
 								onClick={toggleHamburgerMenu}>
 								Coworkez Malin
 							</Link>
 							<Link
 								href={'https://restaurant-app-67d7.vercel.app/'}
 								target='_blank'
-								className='linkHoverEffect text-lg hover:text-yellow-500'
+								className='linkHoverEffect text-xs lg:text-lg hover:text-yellow-500'
 								onClick={toggleHamburgerMenu}>
 								Chiaroscuro
 							</Link>
@@ -91,14 +91,14 @@ const Hamburger = ({
 						target='_blank'
 						className='linkHoverEffect hover:text-yellow-500'
 						onClick={toggleHamburgerMenu}>
-						<Linkedin className='w-8 h-8' />
+						<Linkedin className='lg:w-8 lg:h-8' />
 					</Link>
 					<Link
 						href={'https://github.com/monkeycs60'}
 						target='_blank'
 						className='linkHoverEffect hover:text-yellow-500'
 						onClick={toggleHamburgerMenu}>
-						<Github className='w-8 h-8' />
+						<Github className='lg:w-8 lg:h-8' />
 					</Link>
 				</div>
 			</div>
