@@ -11,28 +11,28 @@ const TechStack = () => {
 					<div className='bg-gray-cool-700 w-[5px] animate-pulse '></div>
 				</div>
 				<div className='flex lg:mt-[40px] gap-16 2xl:gap-0 flex-wrap 2xl:flex-nowrap 2xl:mt-[50px] 3xl:mt-[100px] 2xl:h-[350px] w-[80%] 2xl:w-full 3xl:w-[90%] bg-gray-100 items-center justify-center lg:justify-between text-base 2xl:text-lg font-poppins py-12  lg:p-20'>
-					<div className='flex-col lg:w-[33%] 2xl:w-auto'>
+					<div className='flex flex-col-reverse justify-between gap-12 lg:w-[33%] 2xl:w-auto'>
 						<div className='flex gap-10 justify-center 2xl:justify-normal'>
 							<Image
 								src={'/javascript.svg'}
 								alt='Logo'
 								width={60}
 								height={60}
-								className='w-[50px] h-[50px] 2xl:w-[60px] 2xl:h-[60px] 3xl:w-[72px] 3xl:h-[72px] '
+								className='w-[50px] h-[50px] 2xl:w-[60px] 2xl:h-[60px] 3xl:w-[65px] 3xl:h-[65px] rounded-xl'
 							/>
 							<Image
 								src={'/typescript.svg'}
 								alt='Logo'
 								width={60}
 								height={60}
-								className='w-[50px] h-[50px] 2xl:w-[60px] 2xl:h-[60px] 3xl:w-[72px] 3xl:h-[72px] '
+								className='w-[50px] h-[50px] 2xl:w-[60px] 2xl:h-[60px] 3xl:w-[65px] 3xl:h-[65px]'
 							/>
 						</div>
-						<div className='text-center mt-8'>
+						<div className='text-center mt-8 font-semibold'>
 							<span>Fondamentaux</span>
 						</div>
 					</div>
-					<div className='flex-col lg:w-[33%] 2xl:w-auto'>
+					<div className='flex flex-col-reverse gap-10 lg:w-[33%] 2xl:w-auto'>
 						<div className='flex gap-10 justify-center 2xl:justify-normal'>
 							<Image
 								src={'/react-text-logo.png'}
@@ -49,11 +49,11 @@ const TechStack = () => {
 								className='w-[90px] xl:w-[100px] 2xl:w-[130px] 3xl:w-[140px]'
 							/>
 						</div>
-						<div className='text-center mt-8'>
+						<div className='text-center mt-8 font-semibold'>
 							<span>Front-end</span>
 						</div>
 					</div>
-					<div className='flex-col lg:w-[33%] 2xl:w-auto'>
+					<div className='flex flex-col-reverse gap-10 lg:w-[33%] 2xl:w-auto'>
 						<div className='flex gap-10 justify-center 2xl:justify-normal'>
 							<Image
 								src={'/node.svg'}
@@ -72,28 +72,28 @@ const TechStack = () => {
 								3xl:w-[90px] 3xl:h-[55px] lg:translate-y-2'
 							/>
 						</div>
-						<div className='text-center mt-8'>
+						<div className='text-center mt-8 font-semibold'>
 							<span>Fullstack</span>
 						</div>
 					</div>
-					<div className='flex-col lg:w-[33%] 2xl:w-auto'>
+					<div className='flex flex-col-reverse gap-12 lg:w-[33%] 2xl:w-auto'>
 						<div className='flex gap-10 justify-center 2xl:justify-normal'>
 							<Image
 								src={'/photoshop-logo.png'}
 								alt='Logo'
 								width={2101}
 								height={2048}
-								className='w-[50px] h-[50px] 2xl:w-[60px] 2xl:h-[60px] 3xl:w-[72px] 3xl:h-[72px]'
+								className='w-[50px] h-[50px] 2xl:w-[60px] 2xl:h-[60px] 3xl:w-[65px] 3xl:h-[65px]'
 							/>
 							<Image
 								src={'/figma-logo.png'}
 								alt='Logo'
 								width={2048}
 								height={2048}
-								className='w-[50px] h-[50px] 2xl:w-[60px] 2xl:h-[60px] 3xl:w-[72px] 3xl:h-[72px] rounded-2xl'
+								className='w-[50px] h-[50px] 2xl:w-[60px] 2xl:h-[60px] 3xl:w-[65px] 3xl:h-[65px] rounded-2xl'
 							/>
 						</div>
-						<div className='text-center mt-8'>
+						<div className='text-center mt-8 font-semibold'>
 							<span>Design</span>
 						</div>
 					</div>

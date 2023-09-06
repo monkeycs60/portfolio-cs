@@ -26,7 +26,7 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 	const indicatorWidth = 100 / categories.length;
 
 	return (
-		<div className='flex flex-col h-[850px] lg:h-[800px] 2xl:h-[620px] 3xl:h-[700px] my-[5vh] w-screen font-circularLight  bg-secondary text-primary'>
+		<div className='flex flex-col h-[800px] lg:h-[800px] 2xl:h-[620px] 3xl:h-[700px] my-[5vh] w-screen font-circularLight  bg-secondary text-primary'>
 			<div className='flex relative justify-between w-[90%] lg:w-[65%] mx-auto mt-20'>
 				{categories.map((category, index) => (
 					<span
@@ -50,7 +50,7 @@ const ProjectDetails = ({ categories, texts }: ProjectDetailsProps) => {
 						}%)`,
 					}}></div>
 			</div>
-			<div className='w-[90%] lg:w-[60%] 3xl:w-[35%] h-full flex flex-col justify-center mx-auto mt-6 py-16 2xl:text-lg'>
+			<div className='w-[90%] lg:w-[60%] 3xl:w-[35%] h-full flex flex-col lg:justify-center mx-auto mt-6 py-10 lg:py-16 2xl:text-lg'>
 				{detailsTab[selectedIndex]}
 			</div>
 		</div>

@@ -42,14 +42,14 @@ const Project = () => {
 						macClassName='hidden lg:block absolute lg:-bottom-[70px] 2xl:bottom-0 -left-[80px] 2xl:left-[0px] 3xl:left-[200px] cursor-pointer hover:brightness-50 scale-[60%] 2xl:scale-[78%] 3xl:scale-100'
 						iphoneSrc='/mobile-coworkez.png'
 						iphoneAlt='mon projet coworkez malin mobile version'
-						iphoneClassName='absolute scale-[23%] lg:scale-[20%] 2xl:scale-[32%] 3xl:scale-[40%] -bottom-[260px] lg:-bottom-[410px] 2xl:-bottom-[310px] 3xl:-bottom-[340px] lg:left-[520px] 2xl:left-[900px] 3xl:left-[1300px] cursor-pointer hover:brightness-50'
+						iphoneClassName='absolute scale-[38%] lg:scale-[20%] 2xl:scale-[32%] 3xl:scale-[40%] -bottom-[220px] lg:-bottom-[410px] 2xl:-bottom-[310px] 3xl:-bottom-[340px] lg:left-[520px] 2xl:left-[900px] 3xl:left-[1300px] cursor-pointer hover:brightness-50'
 					/>
-					<div className='flex flex-col justify-center items-center gap-4 font-poppins'>
-						<h1 className='text-center text-3xl 2xl:text-3xl 3xl:text-4xl 3xl:mt-32 text-gray-cool-700'>
+					<div className='flex flex-col justify-center items-center gap-4 font-eva'>
+						<h1 className='text-center text-3xl 2xl:text-3xl 3xl:text-4xl 3xl:mt-32 text-secondary'>
 							Coworkez Malin
 						</h1>
 						<Link href={'https://www.coworkezmalin.com'} target='_blank'>
-							<span className='text-sm lg:text-base 3xl:text-lg hover:underline text-gray-cool-800'>
+							<span className='text-sm lg:text-base 3xl:text-lg hover:underline text-gray-cool-800 font-poppins'>
 								coworkezmalin.com
 							</span>
 						</Link>
@@ -75,16 +75,16 @@ const Project = () => {
 						macClassName='hidden lg:block absolute lg:-bottom-[70px] 2xl:bottom-0 left-[130px] 2xl:left-[280px] 3xl:left-[580px] cursor-pointer hover:brightness-150 scale-[60%] 2xl:scale-[78%] 3xl:scale-100'
 						iphoneSrc='/mobile-chiaroscuro.png'
 						iphoneAlt='mon projet Chiaroscuro mobile version'
-						iphoneClassName='absolute scale-[36%] lg:scale-[20%] 2xl:scale-[32%] 3xl:scale-[40%] -bottom-[120px] lg:-bottom-[420px] 2xl:-bottom-[310px] 3xl:-bottom-[340px] lg:-left-[120px] 2xl:-left-[70px] 3xl:left-[60px] hover:brightness-125 cursor-pointer'
+						iphoneClassName='absolute scale-[59%] lg:scale-[20%] 2xl:scale-[32%] 3xl:scale-[40%] -bottom-[80px] lg:-bottom-[420px] 2xl:-bottom-[310px] 3xl:-bottom-[340px] lg:-left-[120px] 2xl:-left-[70px] 3xl:left-[60px] hover:brightness-125 cursor-pointer'
 					/>
-					<div className='flex flex-col justify-center items-center gap-4 font-poppins'>
-						<h1 className='text-center text-3xl 2xl:text-3xl 3xl:text-4xl 3xl:mt-32 text-gray-cool-700'>
+					<div className='flex flex-col justify-center items-center gap-4 font-eva'>
+						<h1 className='text-center text-3xl 2xl:text-3xl 3xl:text-4xl 3xl:mt-32 text-secondary'>
 							Chiaroscuro
 						</h1>
 						<Link
 							href={'https://restaurant-app-67d7.vercel.app/'}
 							target='_blank'>
-							<span className='text-xs lg:text-base 3xl:text-lg hover:underline text-gray-cool-800'>
+							<span className='text-xs lg:text-base 3xl:text-lg hover:underline font-poppins text-gray-cool-800'>
 								restaurant-app-67d7.vercel.app
 							</span>
 						</Link>

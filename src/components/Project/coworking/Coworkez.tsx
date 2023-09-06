@@ -20,48 +20,48 @@ export const CoworkezFeatures = () => {
 			<ul className='flex flex-col gap-8'>
 				<li className='flex gap-8 '>
 					<div>
-						-{' '}
+						<span className='mr-2'>&bull;</span>
 						<span className='font-bold underline-offset-2 underline'>
 							Système d'authentification
 						</span>{' '}
 						géré par une librairie tierce, Clerk.
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
-						<Lock className='w-6 h-6' />
-						<Gauge className='w-6 h-6' />
+						<Lock className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Gauge className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
 				<li className='flex gap-8 '>
 					<div>
-						-{' '}
+						<span className='mr-2'>&bull;</span>
 						<span className='font-bold underline-offset-2 underline'>
 							Autocomplétion
 						</span>{' '}
 						d'input branchée sur l'API Google Places.{' '}
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
-						<Waves className='w-6 h-6' />
-						<Gauge className='w-6 h-6' />
-						<Smile className='w-6 h-6' />
+						<Waves className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Gauge className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Smile className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
 				<li className='flex gap-8 '>
 					<div>
-						-{' '}
+						<span className='mr-2'>&bull;</span>
 						<span className='font-bold underline-offset-2 underline'>
 							Conversion automatique des images
 						</span>{' '}
 						fournies par l'API Google & pré-remplissage du formulaire.
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
-						<Waves className='w-6 h-6' />
-						<Gauge className='w-6 h-6' />
-						<Smile className='w-6 h-6' />
+						<Waves className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Gauge className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Smile className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
 				<li className='flex gap-8 justify'>
 					<div>
-						-{' '}
+						<span className='mr-2'>&bull;</span>
 						<span className='font-bold underline-offset-2 underline'>
 							Upload de fichiers
 						</span>{' '}
@@ -69,14 +69,14 @@ export const CoworkezFeatures = () => {
 						le CDN Amazon CloudFront.
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
-						<Gauge className='w-6 h-6' />
-						<Truck className='w-6 h-6' />
-						<Lock className='w-6 h-6' />
+						<Gauge className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Truck className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Lock className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
 				<li className='flex gap-8 justify'>
 					<div>
-						- Intégration de{' '}
+						<span className='mr-2'>&bull;</span> Intégration de{' '}
 						<span className='font-bold underline-offset-2 underline'>
 							Google Maps
 						</span>{' '}
@@ -84,24 +84,25 @@ export const CoworkezFeatures = () => {
 						coordonnées.
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
-						<Sun className='w-6 h-6' />
-						<Smile className='w-6 h-6' />
+						<Sun className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Smile className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
 				<li className='flex gap-8 justify'>
 					<div>
-						- Formulaire de contact géré via{' '}
+						<span className='mr-2'>&bull;</span> Formulaire de contact
+						géré via{' '}
 						<span className='font-bold underline-offset-2 underline'>
 							SMTP
 						</span>{' '}
 						(SendGrid)
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
-						<Gauge className='w-6 h-6' />
-						<Truck className='w-6 h-6' />
+						<Gauge className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Truck className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
-				<li>- et beaucoup à venir....</li>
+				<li>et beaucoup à venir....</li>
 				<li></li>
 			</ul>
 		</div>
@@ -110,7 +111,7 @@ export const CoworkezFeatures = () => {
 
 export const CoworkezDescription = () => {
 	return (
-		<div className='flex flex-col gap-8 font-poppins text-sm lg:text-base 2xl:text-md'>
+		<div className='flex flex-col gap-8  font-poppins text-sm lg:text-base 2xl:text-md'>
 			<div className='flex flex-col gap-4 2xl:leading-7'>
 				<p>
 					Quand j'ai commencé ma formation à distance dans une ville que je
@@ -155,7 +156,7 @@ export const CoworkezTechnologies = () => {
 						alt='typescript'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='front-typescript'
 						data-tooltip-content='Typescript'
 					/>
@@ -164,7 +165,7 @@ export const CoworkezTechnologies = () => {
 						alt='react'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='front-react'
 						data-tooltip-content='React'
 					/>
@@ -173,7 +174,7 @@ export const CoworkezTechnologies = () => {
 						alt='redux'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='front-redux'
 						data-tooltip-content='Redux'
 					/>
@@ -182,7 +183,7 @@ export const CoworkezTechnologies = () => {
 						alt='nextjs'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='front-nextjs'
 						data-tooltip-content='Next.js'
 					/>
@@ -191,7 +192,7 @@ export const CoworkezTechnologies = () => {
 						alt='tailwind'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='front-tailwind'
 						data-tooltip-content='Tailwind'
 					/>
@@ -200,7 +201,7 @@ export const CoworkezTechnologies = () => {
 						alt='framer'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='front-framer'
 						data-tooltip-content='Framer'
 					/>
@@ -209,7 +210,7 @@ export const CoworkezTechnologies = () => {
 						alt='shadcn ui'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='front-shadcn'
 						data-tooltip-content='Shadcn ui'
 					/>
@@ -224,7 +225,7 @@ export const CoworkezTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col 2xl:flex-row 2xl:items-center 2xl:justify-between 2xl:w-[80%] 3xl:w-[100%] justify-start gap-6 lg:gap-2 font-semibold text-lg 2xl:text-xl text-secondary px-4 lg:px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col 2xl:flex-row 2xl:items-center 2xl:justify-between 2xl:w-[80%] 3xl:w-[100%] justify-start gap-6 lg:gap-2 font-semibold text-lg 2xl:text-xl text-secondary px-4 py-6 lg:px-12 lg:py-6'>
 				<h3 className=''>Back-End</h3>
 				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap lg:flex-nowrap'>
 					<Image
@@ -232,7 +233,7 @@ export const CoworkezTechnologies = () => {
 						alt='typescript'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='back-typescript'
 						data-tooltip-content='Typescript'
 					/>
@@ -241,7 +242,7 @@ export const CoworkezTechnologies = () => {
 						alt='node'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='back-node'
 						data-tooltip-content='Node'
 					/>
@@ -250,7 +251,7 @@ export const CoworkezTechnologies = () => {
 						alt='postgresql'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='back-postgresql'
 						data-tooltip-content='PostgreSQL'
 					/>
@@ -259,7 +260,7 @@ export const CoworkezTechnologies = () => {
 						alt='prisma'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='back-prisma'
 						data-tooltip-content='Prisma'
 					/>
@@ -268,7 +269,7 @@ export const CoworkezTechnologies = () => {
 						alt='neon db'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='back-neondb'
 						data-tooltip-content='Neon db'
 					/>
@@ -281,15 +282,15 @@ export const CoworkezTechnologies = () => {
 					</div>
 				</div>
 			</div>
-			<div className='bg-gray-200 flex flex-col 2xl:flex-row 2xl:justify-between 2xl:items-center 2xl:w-[80%] 3xl:w-[100%] justify-start gap-6 lg:gap-4 font-semibold text-lg 2xl:text-xl text-secondary px-4 lg:px-12 py-6'>
+			<div className='bg-gray-200 flex flex-col 2xl:flex-row 2xl:justify-between 2xl:items-center 2xl:w-[80%] 3xl:w-[100%] justify-start gap-6 lg:gap-4 font-semibold text-lg 2xl:text-xl text-secondary px-4 py-4 lg:px-12 lg:py-6'>
 				<h3 className=''>Services</h3>
-				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap lg:flex-nowrap'>
+				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap  lg:flex-nowrap'>
 					<Image
 						src='/clerk.png'
 						alt='clerk'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='services-clerk'
 						data-tooltip-content='Clerk'
 					/>
@@ -298,7 +299,7 @@ export const CoworkezTechnologies = () => {
 						alt='google places'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='services-googleplaces'
 						data-tooltip-content='Google Maps API'
 					/>
@@ -307,7 +308,7 @@ export const CoworkezTechnologies = () => {
 						alt='aws'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='services-aws'
 						data-tooltip-content='AWS'
 					/>
@@ -316,7 +317,7 @@ export const CoworkezTechnologies = () => {
 						alt='cloud front'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='services-cloudfront'
 						data-tooltip-content='Cloudfront'
 					/>
@@ -325,7 +326,7 @@ export const CoworkezTechnologies = () => {
 						alt='route 53'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='services-route53'
 						data-tooltip-content='Route 53'
 					/>
@@ -334,7 +335,7 @@ export const CoworkezTechnologies = () => {
 						alt='s3'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='services-s3'
 						data-tooltip-content='S3'
 					/>
@@ -343,7 +344,7 @@ export const CoworkezTechnologies = () => {
 						alt='sendgrid'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
+						className='w-8 h-8 lg:w-10 lg:h-10'
 						data-tooltip-id='services-sendgrid'
 						data-tooltip-content='Sendgrid'
 					/>
