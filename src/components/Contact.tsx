@@ -1,8 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { clsx } from 'clsx';
-import Link from 'next/link';
 import { Github, Linkedin, Mail, Phone } from 'lucide-react';
 import ContactButton from './Contact/ContactButton';
 
