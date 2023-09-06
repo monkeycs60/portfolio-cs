@@ -27,7 +27,7 @@ const Hamburger = ({
 			variants={variants}
 			transition={{ duration: 0.5 }}
 			className='fixed right-0 top-0 z-[100] h-screen w-screen xl:w-[25vw] 2xl:w-[20vw] 3xl:w-[15vw] overflow-hidden bg-secondary text-primary'>
-			<div className=' flex flex-col h-screen justify-center gap-[5vh] items-center text-center  text-base font-poppins lg:text-2xl '>
+			<div className=' flex flex-col h-screen mt-[17vh] lg:mt-0 lg:justify-center gap-[5vh] items-center text-center  text-base font-poppins lg:text-2xl '>
 				<div className='flex flex-col gap-6'>
 					<Link
 						href={'#home'}
