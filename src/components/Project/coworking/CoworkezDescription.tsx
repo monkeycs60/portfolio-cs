@@ -1,33 +1,35 @@
+import Image from 'next/image';
+
 export const CoworkezDescription = () => {
 	return (
 		<div className='flex flex-col gap-8  font-poppins text-sm lg:text-base 2xl:text-md'>
 			<div className='flex flex-col gap-4 2xl:leading-7'>
+				<p className='italic text-sm'>
+					Coworkez Malin est une application communautaire fullstack bâtie
+					avec Next.js.
+				</p>
 				<p>
-					Quand j'ai commencé ma formation à distance dans une ville que je
-					ne connaissais pas, je me suis assez vite senti tourner en rond.
-					Les journées étaient longues, et bien que passionné par mon
-					apprentissage, il me manquait ce petit brin de convivialité, ces
-					échanges avec des personnes qui partagent les mêmes défis. J'ai
-					cherché des espaces de coworking, mais entre ceux trop chers et
-					ceux toujours bondés, je n'étais pas satisfait.
+					L'idée de cette application m'est venue peu après avoir déménagé
+					dans une nouvelle ville pour commencer une formation à distance
+					de développeur web.
 				</p>
 			</div>
 			<div className='flex flex-col gap-4'>
 				<p>
-					Et puis, une idée m'est venue : il y avait sûrement des coins
-					cachés de cette ville, des endroits où je pourrais à la fois
-					travailler tranquillement et rencontrer des gens sympas, et ce
-					sans me ruiner. Du coup, armé de détermination, j'ai créé
-					l'application fullstack Coworkez Malin.
+					Je n'avais pas de cadre de travail, pas de bureau et aucun
+					collègue. M'inscrire dans un espace de coworking classique
+					m'était impossible étant donné les tarifs pratiqués. J'ai donc
+					commencé à chercher des cafés où travailler tranquillement sans
+					me ruiner. Mais sans connaître la ville, c'était une vraie tâche
+					de fourmi que de dégoter les bons spots.
 				</p>
 			</div>
 			<div className='flex flex-col gap-4'>
 				<p>
-					<span className='font-semibold'>coworkezmalin.com</span>,c'est un
-					peu le fruit de ma propre quête : un guide pour trouver les
-					meilleurs spots pour bosser, mais aussi un lieu pour connecter
-					les gens. Alors, si toi aussi tu cherches à donner un peu de
-					chaleur à tes journées de travail à distance, viens !
+					C'est comme ça que{' '}
+					<span className='font-semibold'>coworkezmalin.com</span> est né.
+					Je voulais créer un espace communautaire où chacun puisse
+					consulter et ajouter des endroits conviviaux et peu onéreux où travailler, se rencontrer et échanger. 
 				</p>
 			</div>
 		</div>
