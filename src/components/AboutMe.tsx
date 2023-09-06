@@ -21,11 +21,11 @@ const AboutMe = () => {
 						Depuis, j'ai créé de A à Z{' '}
 						<span className='font-bold'> Coworkez Malin</span>, une
 						application communautaire qui permet de référencer et de
-						consulter tous les espaces de coworking gratuits en France
+						consulter tous les espaces de coworking gratuits en France.
 					</p>
 					<p className='lg:w-3/4  3xl:w-[60%] '>
 						Je suis actuellement à la recherche d'un poste de développeur
-						front-end ou fullstack en CDI sur Paris et Bordeaux.
+						front-end ou fullstack en CDI à Paris et Bordeaux.
 					</p>
 				</div>
 			</div>
