@@ -7,7 +7,7 @@ const Hero = () => {
 		<div id='home' className='w-full lg:h-screen p-4 flex flex-col'>
 			<div className='flex max-w-[90vw] lg:max-w-[65vw] h-screen gap-16 lg:gap-0 flex-col lg:flex-row justify-between pt-[3vh] lg:pt-[18vh] 3xl:pt-[25vh] mx-auto relative'>
 				<div className='h-full flex flex-col '>
-					<div className='flex flex-col h-full gap-8 lg:gap-14 font-eva text-secondary'>
+					<div className='flex flex-col h-full gap-4 lg:gap-14 font-eva text-secondary'>
 						<div className='flex flex-col gap-4'>
 							<h1 className='text-5xl lg:text-6xl 2xl:text-8xl'>
 								Clément <span className='block uppercase'>Serizay</span>
@@ -31,7 +31,7 @@ const Hero = () => {
 									width={837}
 									height={648}
 									priority={true}
-									className=' w-[300px]'
+									className=' w-[280px]'
 								/>
 							</div>
 							<div className='mt-6 lg:mt-0 flex flex-col justify-center items-center lg:justify-normal lg:items-start lg:flex-row gap-4 lg:gap-12'>
