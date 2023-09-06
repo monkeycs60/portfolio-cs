@@ -1,16 +1,13 @@
 import ProjectDetails from './Project/ProjectDetails';
 import projectDetails from '../data/projectDetails.json';
 import ProjectMockUp from './Project/ProjectMockUp';
-import {
-	CoworkezFeatures,
-	CoworkezDescription,
-	CoworkezTechnologies,
-} from './Project/coworking/Coworkez';
-import {
-	ChiaroscuroFeatures,
-	ChiaroscuroDescription,
-	ChiaroscuroTechnologies,
-} from './Project/chiaroscuro/Chiaroscuro';
+import { CoworkezFeatures } from './Project/coworking/CoworkezFeatures';
+import { CoworkezDescription } from './Project/coworking/CoworkezDescription';
+import { CoworkezTechnologies } from './Project/coworking/CoworkezTechnologies';
+import { ChiaroscuroFeatures } from './Project/chiaroscuro/ChiaroscuroFeatures';
+import { ChiaroscuroDescription } from './Project/chiaroscuro/ChiaroscuroDescription';
+import { ChiaroscuroTechnologies } from './Project/chiaroscuro/ChiaroscuroTechnologies';
+
 import Link from 'next/link';
 
 const { chiaroscuro, coworkez } = projectDetails;
