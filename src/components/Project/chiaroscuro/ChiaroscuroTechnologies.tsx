@@ -28,24 +28,6 @@ export const ChiaroscuroTechnologies = () => {
 						data-tooltip-content='React'
 					/>
 					<Image
-						src='/redux.svg'
-						alt='redux'
-						width={60}
-						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='front-redux'
-						data-tooltip-content='Redux'
-					/>
-					<Image
-						src='/nexticon.svg'
-						alt='nextjs'
-						width={60}
-						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='front-nextjs'
-						data-tooltip-content='Next.js'
-					/>
-					<Image
 						src='/tailwind.png'
 						alt='tailwind'
 						width={60}
@@ -63,23 +45,11 @@ export const ChiaroscuroTechnologies = () => {
 						data-tooltip-id='front-framer'
 						data-tooltip-content='Framer'
 					/>
-					<Image
-						src='/shadcn.png'
-						alt='shadcn ui'
-						width={60}
-						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='front-shadcn'
-						data-tooltip-content='Shadcn ui'
-					/>
 					<div className='text-lg'>
 						<Tooltip id='front-typescript' />
 						<Tooltip id='front-react' />
-						<Tooltip id='front-redux' />
-						<Tooltip id='front-nextjs' />
 						<Tooltip id='front-tailwind' />
 						<Tooltip id='front-framer' />
-						<Tooltip id='front-shadcn' />
 					</div>
 				</div>
 			</div>
@@ -105,38 +75,28 @@ export const ChiaroscuroTechnologies = () => {
 						data-tooltip-content='Node'
 					/>
 					<Image
-						src='/postgresql.png'
-						alt='postgresql'
+						src='/mongodb.png'
+						alt='mongodb'
 						width={60}
 						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='back-postgresql'
-						data-tooltip-content='PostgreSQL'
+						className='w-8 h-8 lg:w-12 lg:h-12 3xl:w-14 3xl:h-14'
+						data-tooltip-id='back-mongodb'
+						data-tooltip-content='Mongo DB'
 					/>
 					<Image
-						src='/prisma.png'
-						alt='prisma'
-						width={60}
-						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='back-prisma'
-						data-tooltip-content='Prisma'
-					/>
-					<Image
-						src='/neondb.png'
-						alt='neon db'
-						width={60}
-						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='back-neondb'
-						data-tooltip-content='Neon db'
+						src='/express.png'
+						alt='express'
+						width={465}
+						height={131}
+						className='w-10 lg:w-12 3xl:w-14'
+						data-tooltip-id='back-express'
+						data-tooltip-content='Express'
 					/>
 					<div className='text-lg'>
 						<Tooltip id='back-typescript' />
 						<Tooltip id='back-node' />
-						<Tooltip id='back-postgresql' />
-						<Tooltip id='back-prisma' />
-						<Tooltip id='back-neondb' />
+						<Tooltip id='back-express' />
+						<Tooltip id='back-mongodb' />
 					</div>
 				</div>
 			</div>
@@ -144,58 +104,22 @@ export const ChiaroscuroTechnologies = () => {
 				<h3 className=''>Services</h3>
 				<div className='flex gap-8 lg:gap-12 justify-center items-center flex-wrap lg:flex-nowrap'>
 					<Image
-						src='/clerk.png'
-						alt='clerk'
+						src='/vite.png'
+						alt='vite'
 						width={60}
 						height={60}
 						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='services-clerk'
-						data-tooltip-content='Clerk'
+						data-tooltip-id='services-vite'
+						data-tooltip-content='Vite'
 					/>
 					<Image
-						src='/places.png'
-						alt='google places'
+						src='/vercel-logo.png'
+						alt='vercel'
 						width={60}
 						height={60}
 						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='services-googleplaces'
-						data-tooltip-content='Google Maps API'
-					/>
-					<Image
-						src='/aws.png'
-						alt='aws'
-						width={60}
-						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='services-aws'
-						data-tooltip-content='AWS'
-					/>
-					<Image
-						src='/cloudfront.png'
-						alt='cloud front'
-						width={60}
-						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='services-cloudfront'
-						data-tooltip-content='Cloudfront'
-					/>
-					<Image
-						src='/route53.png'
-						alt='route 53'
-						width={60}
-						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='services-route53'
-						data-tooltip-content='Route 53'
-					/>
-					<Image
-						src='/s3.png'
-						alt='s3'
-						width={60}
-						height={60}
-						className='w-8 h-8 lg:w-10 lg:h-10 3xl:w-12 3xl:h-12'
-						data-tooltip-id='services-s3'
-						data-tooltip-content='S3'
+						data-tooltip-id='services-vercel'
+						data-tooltip-content='Vercel'
 					/>
 					<Image
 						src='/sendgrid.png'
@@ -207,12 +131,8 @@ export const ChiaroscuroTechnologies = () => {
 						data-tooltip-content='Sendgrid'
 					/>
 					<div className='text-lg'>
-						<Tooltip id='services-clerk' />
-						<Tooltip id='services-googleplaces' />
-						<Tooltip id='services-aws' />
-						<Tooltip id='services-cloudfront' />
-						<Tooltip id='services-route53' />
-						<Tooltip id='services-s3' />
+						<Tooltip id='services-vite' />
+						<Tooltip id='services-vercel' />
 						<Tooltip id='services-sendgrid' />
 					</div>
 				</div>

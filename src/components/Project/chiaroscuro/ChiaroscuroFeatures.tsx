@@ -17,22 +17,22 @@ export const ChiaroscuroFeatures = () => {
 					<div>
 						<span className='mr-2'>&bull;</span>
 						<span className='font-bold underline-offset-2 underline'>
-							Système d'authentification
+							Authentification
 						</span>{' '}
-						géré par une librairie tierce, Clerk.
+						maison en JWT.
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
 						<Lock className='w-4 h-4 lg:w-6 lg:h-6' />
-						<Gauge className='w-4 h-4 lg:w-6 lg:h-6' />
+						<HeartHandshake className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
 				<li className='flex gap-8 '>
 					<div>
 						<span className='mr-2'>&bull;</span>
 						<span className='font-bold underline-offset-2 underline'>
-							Autocomplétion
+							Formulaire multi-step
 						</span>{' '}
-						d'input branchée sur l'API Google Places.{' '}
+						d'inscription / connexion / réservation{' '}
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
 						<Waves className='w-4 h-4 lg:w-6 lg:h-6' />
@@ -44,13 +44,12 @@ export const ChiaroscuroFeatures = () => {
 					<div>
 						<span className='mr-2'>&bull;</span>
 						<span className='font-bold underline-offset-2 underline'>
-							Conversion automatique des images
+							Système de réservation{' '}
 						</span>{' '}
-						fournies par l'API Google & pré-remplissage du formulaire.
+						maison en temps réel avec confirmation mail
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
 						<Waves className='w-4 h-4 lg:w-6 lg:h-6' />
-						<Gauge className='w-4 h-4 lg:w-6 lg:h-6' />
 						<Smile className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
@@ -58,27 +57,24 @@ export const ChiaroscuroFeatures = () => {
 					<div>
 						<span className='mr-2'>&bull;</span>
 						<span className='font-bold underline-offset-2 underline'>
-							Upload de fichiers
+							Carrousel personnalisé
 						</span>{' '}
-						branché sur un bucket S3 et délivré sur le reste du site via
-						le CDN Amazon CloudFront.
+						et animé composé d'images créées par l'IA (MidJourney)
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
-						<Gauge className='w-4 h-4 lg:w-6 lg:h-6' />
-						<Truck className='w-4 h-4 lg:w-6 lg:h-6' />
-						<Lock className='w-4 h-4 lg:w-6 lg:h-6' />
+						<Sun className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
 				<li className='flex gap-8 justify'>
 					<div>
-						<span className='mr-2'>&bull;</span> Intégration de{' '}
+						<span className='mr-2'>&bull;</span> Intégration d'{' '}
 						<span className='font-bold underline-offset-2 underline'>
-							Google Maps
+							OpenStreetMap
 						</span>{' '}
-						et référencement de tous les lieux ajoutés grâce à leurs
-						coordonnées.
+						pour faciliter la localisation du restaurant
 					</div>
 					<div className='flex gap-2 text-yellow-500'>
+						<Waves className='w-4 h-4 lg:w-6 lg:h-6' />
 						<Sun className='w-4 h-4 lg:w-6 lg:h-6' />
 						<Smile className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
@@ -97,7 +93,6 @@ export const ChiaroscuroFeatures = () => {
 						<Truck className='w-4 h-4 lg:w-6 lg:h-6' />
 					</div>
 				</li>
-				<li>et beaucoup à venir....</li>
 				<li></li>
 			</ul>
 		</div>
