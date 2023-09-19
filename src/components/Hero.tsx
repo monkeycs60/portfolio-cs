@@ -40,7 +40,7 @@ const Hero = () => {
 										Me contacter
 									</button>
 								</Link>
-								<Link href='https://www.linkedin.com/in/cl%C3%A9ment-serizay-044911262/'>
+								<Link href='https://www.linkedin.com/in/cl%C3%A9ment-serizay-044911262/' target='_blank' >
 									<button className='px-8 py-4 w-[240px]  lg:w-[240px] 3xl:w-[250px] border-[2px] border-secondary text-secondary hover:bg-secondary hover:text-tercary'>
 										LinkedIn
 									</button>
