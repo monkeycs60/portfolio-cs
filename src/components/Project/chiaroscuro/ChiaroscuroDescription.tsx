@@ -3,7 +3,7 @@ export const ChiaroscuroDescription = () => {
 		<div className='flex flex-col gap-8 font-poppins text-sm lg:text-base 2xl:text-md'>
 			<div className='flex flex-col gap-4 2xl:leading-7'>
 				<p className='italic text-sm'>
-					Chiaroscuro est une application communautaire fullstack bâtie sur
+					Chiaroscuro est une application fullstack bâtie sur
 					la stack MERN.
 				</p>
 				<p>
